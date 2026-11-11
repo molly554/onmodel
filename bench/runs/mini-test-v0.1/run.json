@@ -1,0 +1,23 @@
+{
+  "schema": "onmodel/run@1",
+  "engine": "gemini-nano-banana-2.1",
+  "recipes_version": "0.1.0",
+  "ratio": "3:4",
+  "variants": [
+    "repair",
+    "v0",
+    "v1"
+  ],
+  "resolutions": [
+    "1k",
+    "2k"
+  ],
+  "cases": [
+    "A02",
+    "A04",
+    "J01",
+    "K04"
+  ],
+  "created": "2026-11-10",
+  "note": "A pilot run made with the internal scripts this package grew out of, not with `onmodel bench run`. The prompts are the starter recipes."
+}

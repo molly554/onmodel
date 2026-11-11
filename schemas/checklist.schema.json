@@ -1,0 +1,294 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/molly554/onmodel/schemas/checklist.schema.json",
+  "title": "onmodel checklist",
+  "description": "A reviewer's answers to the nine questions about one result photo. Points are computed from this by code.",
+  "type": "object",
+  "properties": {
+    "items": {
+      "type": "object",
+      "properties": {
+        "shape": {
+          "type": "object",
+          "properties": {
+            "answer": {
+              "enum": [
+                "same",
+                "minor",
+                "different",
+                "cannot_tell",
+                "not_applicable"
+              ]
+            },
+            "evidence": {
+              "type": "string"
+            },
+            "where": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "answer"
+          ],
+          "additionalProperties": true
+        },
+        "color": {
+          "type": "object",
+          "properties": {
+            "answer": {
+              "enum": [
+                "same",
+                "minor",
+                "different",
+                "cannot_tell",
+                "not_applicable"
+              ]
+            },
+            "evidence": {
+              "type": "string"
+            },
+            "where": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "answer"
+          ],
+          "additionalProperties": true
+        },
+        "material": {
+          "type": "object",
+          "properties": {
+            "answer": {
+              "enum": [
+                "same",
+                "minor",
+                "different",
+                "cannot_tell",
+                "not_applicable"
+              ]
+            },
+            "evidence": {
+              "type": "string"
+            },
+            "where": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "answer"
+          ],
+          "additionalProperties": true
+        },
+        "text": {
+          "type": "object",
+          "properties": {
+            "answer": {
+              "enum": [
+                "same",
+                "minor",
+                "different",
+                "cannot_tell",
+                "not_applicable"
+              ]
+            },
+            "evidence": {
+              "type": "string"
+            },
+            "where": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "answer"
+          ],
+          "additionalProperties": true
+        },
+        "parts": {
+          "type": "object",
+          "properties": {
+            "answer": {
+              "enum": [
+                "same",
+                "minor",
+                "different",
+                "cannot_tell",
+                "not_applicable"
+              ]
+            },
+            "evidence": {
+              "type": "string"
+            },
+            "where": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "answer"
+          ],
+          "additionalProperties": true
+        },
+        "pose": {
+          "type": "object",
+          "properties": {
+            "answer": {
+              "enum": [
+                "same",
+                "minor",
+                "different",
+                "cannot_tell",
+                "not_applicable"
+              ]
+            },
+            "evidence": {
+              "type": "string"
+            },
+            "where": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "answer"
+          ],
+          "additionalProperties": true
+        },
+        "identity": {
+          "type": "object",
+          "properties": {
+            "answer": {
+              "enum": [
+                "same",
+                "minor",
+                "different",
+                "cannot_tell",
+                "not_applicable"
+              ]
+            },
+            "evidence": {
+              "type": "string"
+            },
+            "where": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "answer"
+          ],
+          "additionalProperties": true
+        },
+        "artifacts": {
+          "type": "object",
+          "properties": {
+            "answer": {
+              "enum": [
+                "same",
+                "minor",
+                "different",
+                "cannot_tell",
+                "not_applicable"
+              ]
+            },
+            "evidence": {
+              "type": "string"
+            },
+            "where": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "answer"
+          ],
+          "additionalProperties": true
+        },
+        "scale": {
+          "type": "object",
+          "properties": {
+            "answer": {
+              "enum": [
+                "same",
+                "minor",
+                "different",
+                "cannot_tell",
+                "not_applicable"
+              ]
+            },
+            "evidence": {
+              "type": "string"
+            },
+            "where": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "answer"
+          ],
+          "additionalProperties": true
+        }
+      },
+      "required": [
+        "shape",
+        "color",
+        "material",
+        "text",
+        "parts",
+        "pose",
+        "identity",
+        "artifacts",
+        "scale"
+      ],
+      "additionalProperties": false
+    },
+    "defects": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "code": {
+            "enum": [
+              "WRONG_PRODUCT",
+              "SHAPE_OFF",
+              "LENGTH_DRIFT",
+              "COLOR_OFF",
+              "COLOR_FAMILY",
+              "MATERIAL_OFF",
+              "TEXT_GARBLE",
+              "TEXT_WRONG",
+              "LABEL_OCCLUDED",
+              "PART_MISSING",
+              "PART_MERGED",
+              "PART_EXTRA",
+              "POSE",
+              "IDENTITY",
+              "LEAK_HAND_MANNEQUIN",
+              "ARTIFACT",
+              "SEVERE_DEFORMITY",
+              "SCALE_OFF"
+            ]
+          },
+          "where": {
+            "type": "string"
+          },
+          "evidence": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "code"
+        ],
+        "additionalProperties": true
+      }
+    },
+    "text_in_reference": {
+      "type": "string",
+      "description": "Text legible on the real product, line by line."
+    },
+    "text_in_generated": {
+      "type": "string",
+      "description": "Text legible on the product in the result, exactly as it appears."
+    }
+  },
+  "required": [
+    "items"
+  ],
+  "additionalProperties": false
+}

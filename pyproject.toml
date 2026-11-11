@@ -1,0 +1,43 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "onmodel"
+version = "0.1.0"
+description = "Check whether an AI-generated on-model product photo still shows your product: a rubric, a scorer, a benchmark and starter recipes."
+readme = "README.md"
+requires-python = ">=3.10"
+license = "Apache-2.0"
+license-files = ["LICENSE", "NOTICE"]
+authors = [{ name = "molly554" }]
+keywords = ["ai-product-photography", "ecommerce", "image-evaluation", "benchmark", "llm-as-a-judge", "virtual-try-on", "agent-skills"]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Intended Audience :: Developers",
+  "Programming Language :: Python :: 3",
+  "Topic :: Scientific/Engineering :: Image Recognition",
+]
+dependencies = ["pyyaml>=6", "pillow>=10"]
+
+[project.optional-dependencies]
+ocr = ["pytesseract>=0.3"]
+dev = ["pytest>=8", "jsonschema>=4"]
+
+[project.urls]
+Homepage = "https://github.com/molly554/onmodel"
+Issues = "https://github.com/molly554/onmodel/issues"
+
+[project.scripts]
+onmodel = "onmodel.cli:main"
+
+[tool.setuptools]
+packages = ["onmodel"]
+
+[tool.setuptools.package-data]
+onmodel = ["data/*.yaml"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+addopts = "-q"

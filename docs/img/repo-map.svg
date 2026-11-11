@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-labelledby="t d"><title id="t">What is in the onmodel repository</title><desc id="d">Seven jobs, from understanding a product photo to running a service. Open parts are code under Apache-2.0 and data under CC0 or CC BY 4.0; the starter recipes are a tested baseline, not tuned; a hosted service with accounts and billing is not part of the repository.</desc><defs><marker id="arrow" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#59636e"/></marker></defs><rect x="0.75" y="0.75" width="1198.5" height="698.5" rx="16" fill="#ffffff" stroke="#d0d7de" stroke-width="1.5"/><text x="44" y="64" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="30" font-weight="700" fill="#1f2328" text-anchor="start">What is in this repository</text>
+<text x="44" y="96" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="18" font-weight="400" fill="#59636e" text-anchor="start">From a product photo to a verdict, and which parts you get.</text>
+<rect x="44" y="116" width="418.4" height="32" rx="16" fill="#e6f6f4" stroke="#0f766e" stroke-width="1.2"/>
+<text x="62" y="137" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14.5" font-weight="600" fill="#0b514b" text-anchor="start">Open: code Apache-2.0, data CC0 or CC BY 4.0</text>
+<rect x="474.4" y="116" width="358.2" height="32" rx="16" fill="#fef3c7" stroke="#b45309" stroke-width="1.2"/>
+<text x="492.4" y="137" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14.5" font-weight="600" fill="#7c3a06" text-anchor="start">Starter: a tested baseline, not tuned</text>
+<rect x="844.5999999999999" y="116" width="108.8" height="32" rx="16" fill="#f0f2f4" stroke="#6e7781" stroke-width="1.2"/>
+<text x="862.5999999999999" y="137" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14.5" font-weight="600" fill="#424a53" text-anchor="start">Not here</text>
+<rect x="44" y="166" width="300" height="62" rx="10" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1.5"/>
+<text x="62" y="204" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="17.5" font-weight="700" fill="#1f2328" text-anchor="start">Understand the product</text>
+<line x1="350" y1="197" x2="392" y2="197" stroke="#59636e" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="398" y="166" width="758.0" height="62" rx="10" fill="#e6f6f4" stroke="#0f766e" stroke-width="1.6"/>
+<text x="414" y="193" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="17.5" font-weight="700" fill="#0b514b" text-anchor="start">onmodel analyze</text>
+<text x="414" y="215" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14.5" font-weight="400" fill="#0b514b" text-anchor="start">risk tags, parts and printed text from a product photo</text>
+<rect x="44" y="240" width="300" height="62" rx="10" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1.5"/>
+<text x="62" y="278" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="17.5" font-weight="700" fill="#1f2328" text-anchor="start">Choose a recipe and a pose</text>
+<line x1="350" y1="271" x2="392" y2="271" stroke="#59636e" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="398" y="240" width="373.0" height="62" rx="10" fill="#fef3c7" stroke="#b45309" stroke-width="1.6"/>
+<text x="414" y="267" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="17.5" font-weight="700" fill="#7c3a06" text-anchor="start">Starter recipes</text>
+<text x="414" y="289" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14.5" font-weight="400" fill="#7c3a06" text-anchor="start">one prompt rule per risk tag</text>
+<rect x="783.0" y="240" width="373.0" height="62" rx="10" fill="#e6f6f4" stroke="#0f766e" stroke-width="1.6"/>
+<text x="799.0" y="267" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="17.5" font-weight="700" fill="#0b514b" text-anchor="start">9 pose photos</text>
+<text x="799.0" y="289" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14.5" font-weight="400" fill="#0b514b" text-anchor="start">AI-generated, CC0</text>
+<rect x="44" y="314" width="300" height="62" rx="10" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1.5"/>
+<text x="62" y="352" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="17.5" font-weight="700" fill="#1f2328" text-anchor="start">Generate the photo</text>
+<line x1="350" y1="345" x2="392" y2="345" stroke="#59636e" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="398" y="314" width="758.0" height="62" rx="10" fill="#e6f6f4" stroke="#0f766e" stroke-width="1.6"/>
+<text x="414" y="341" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="17.5" font-weight="700" fill="#0b514b" text-anchor="start">Engine adapters</text>
+<text x="414" y="363" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14.5" font-weight="400" fill="#0b514b" text-anchor="start">Gemini, a mock, or your own in about 20 lines</text>
+<rect x="44" y="388" width="300" height="62" rx="10" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1.5"/>
+<text x="62" y="426" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="17.5" font-weight="700" fill="#1f2328" text-anchor="start">Check the photo</text>
+<line x1="350" y1="419" x2="392" y2="419" stroke="#59636e" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="398" y="388" width="758.0" height="62" rx="10" fill="#e6f6f4" stroke="#0f766e" stroke-width="1.6"/>
+<text x="414" y="415" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="17.5" font-weight="700" fill="#0b514b" text-anchor="start">onmodel check</text>
+<text x="414" y="437" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14.5" font-weight="400" fill="#0b514b" text-anchor="start">nine questions, text rule, scorer, JSON record</text>
+<rect x="44" y="462" width="300" height="62" rx="10" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1.5"/>
+<text x="62" y="500" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="17.5" font-weight="700" fill="#1f2328" text-anchor="start">Ask your coding agent</text>
+<line x1="350" y1="493" x2="392" y2="493" stroke="#59636e" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="398" y="462" width="758.0" height="62" rx="10" fill="#e6f6f4" stroke="#0f766e" stroke-width="1.6"/>
+<text x="414" y="489" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="17.5" font-weight="700" fill="#0b514b" text-anchor="start">Two agent skills</text>
+<text x="414" y="511" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14.5" font-weight="400" fill="#0b514b" text-anchor="start">fidelity-check and shoot-brief, no key needed</text>
+<rect x="44" y="536" width="300" height="62" rx="10" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1.5"/>
+<text x="62" y="574" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="17.5" font-weight="700" fill="#1f2328" text-anchor="start">Compare engines and recipes</text>
+<line x1="350" y1="567" x2="392" y2="567" stroke="#59636e" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="398" y="536" width="758.0" height="62" rx="10" fill="#e6f6f4" stroke="#0f766e" stroke-width="1.6"/>
+<text x="414" y="563" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="17.5" font-weight="700" fill="#0b514b" text-anchor="start">onmodel bench</text>
+<text x="414" y="585" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14.5" font-weight="400" fill="#0b514b" text-anchor="start">fetch, run, judge, report: 4 CC0 or public-domain cases bundled, 5 linked by sha256</text>
+<rect x="44" y="610" width="300" height="62" rx="10" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1.5"/>
+<text x="62" y="648" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="17.5" font-weight="700" fill="#1f2328" text-anchor="start">Run it as a service</text>
+<line x1="350" y1="641" x2="392" y2="641" stroke="#59636e" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="398" y="610" width="758.0" height="62" rx="10" fill="#f0f2f4" stroke="#6e7781" stroke-width="1.6"/>
+<text x="414" y="637" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="17.5" font-weight="700" fill="#424a53" text-anchor="start">Hosted product</text>
+<text x="414" y="659" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14.5" font-weight="400" fill="#424a53" text-anchor="start">accounts, billing and a web interface are not part of this project</text></svg>

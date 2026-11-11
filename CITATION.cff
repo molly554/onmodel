@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use onmodel in your work, please cite it as below."
+title: "onmodel: checking AI-generated on-model product photos against the real product"
+type: software
+version: 0.1.0
+date-released: 2026-11-11
+license: Apache-2.0
+repository-code: "https://github.com/molly554/onmodel"
+url: "https://github.com/molly554/onmodel"
+authors:
+  - name: "molly554"
+abstract: >-
+  A rubric, a scorer, a text rule, a benchmark runner and starter recipes for checking whether an
+  AI-generated photo of a person wearing or holding a product still shows the real product.
+  Version 0.1.0 includes a preliminary pilot test; its numbers are directions, not pass rates.
+keywords:
+  - ai-product-photography
+  - image-evaluation
+  - benchmark
+  - llm-as-a-judge
+  - ecommerce

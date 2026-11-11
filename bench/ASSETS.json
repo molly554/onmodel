@@ -1,0 +1,339 @@
+{
+  "version": 1,
+  "about": "Every image file committed to this repository, with its license and origin. scripts/check_assets.py enforces this list.",
+  "assets": [
+    {
+      "path": "bench/golden/images/K04.jpg",
+      "sha256": "24543fce8706301be03647b5dec854921733085d8cb3030dcfa2716169fb2fd0",
+      "kind": "product-photo",
+      "license": "CC0",
+      "author": "hystiff",
+      "origin": "https://commons.wikimedia.org/wiki/File:Lipstick_from_LABELLO.jpg",
+      "notes": "Re-encoded as JPEG (quality 92), long edge at most 2048 px, metadata removed."
+    },
+    {
+      "path": "bench/golden/images/J01.jpg",
+      "sha256": "7c62f35ced061d269b71cdd0bd2cf0e0d2224ea0da22f503d3bd145db2a94b09",
+      "kind": "product-photo",
+      "license": "CC0",
+      "author": "The Metropolitan Museum of Art (donated to Wikimedia Commons)",
+      "origin": "https://commons.wikimedia.org/wiki/File:Gold_necklace_with_crescent-shaped_pendant_MET_DP160653.jpg",
+      "notes": "Re-encoded as JPEG (quality 92), long edge at most 2048 px, metadata removed."
+    },
+    {
+      "path": "bench/golden/images/A02.jpg",
+      "sha256": "4dc2b3cccf75562ad2a2575ff177549948c393123b3cd219c6f04d816e0b55a7",
+      "kind": "product-photo",
+      "license": "CC0",
+      "author": "Staff photographer, Rhode Island School of Design Museum of Art",
+      "origin": "https://commons.wikimedia.org/wiki/File:2007_Isabel_Toledo_for_Anne_Klein_little_black_dress,_pleated_wool_01.jpg",
+      "notes": "Re-encoded as JPEG (quality 92), long edge at most 2048 px, metadata removed."
+    },
+    {
+      "path": "bench/golden/images/A04.jpg",
+      "sha256": "6ce0af6f8f1592d17703b3bbbed591e0121ad5adb145656d38ad5bd923d348c1",
+      "kind": "product-photo",
+      "license": "Public domain",
+      "author": "Digital Public Library of America record 0eba19e6764ca547154dd8a0e602e72e",
+      "origin": "https://commons.wikimedia.org/wiki/File:Brown_cotton_floral_print_dress_-_DPLA_-_0eba19e6764ca547154dd8a0e602e72e_(page_1).jpg",
+      "notes": "Re-encoded as JPEG (quality 92), long edge at most 2048 px, metadata removed."
+    },
+    {
+      "path": "bench/poses/pose-base-and-skincare-hold-at-chin.jpg",
+      "sha256": "7af5761ad4a9c2f8bba080659ba151f6fdcd22e71798e047d2e02827a4122b5e",
+      "kind": "pose-reference",
+      "license": "CC0",
+      "author": "molly554 (AI-generated)",
+      "origin": "Generated with gemini-nano-banana-2.1 on 2026-11-10 from the text prompt below. A synthetic adult; not a real person.",
+      "prompt": "Pose reference photograph. A woman in her early twenties with fair skin and a platinum-blonde pixie cut, holding the dropper bottle at her chin. The product is a frosted-glass dropper serum bottle with a blank cream label, no printing. Soft pink-beige seamless backdrop. Photorealistic e-commerce catalog photograph, soft diffused natural window light, true-to-life color, realistic skin texture and fabric detail, clean uncluttered background. Adult model. No text, no logos, no watermark, no captions, no packaging text."
+    },
+    {
+      "path": "bench/poses/pose-base-and-skincare-in-open-palm.jpg",
+      "sha256": "dcefa9adb729bc93655d1cd8232660f3ad19f4bea3056bb0725f0aef57c8d3f3",
+      "kind": "pose-reference",
+      "license": "CC0",
+      "author": "molly554 (AI-generated)",
+      "origin": "Generated with gemini-nano-banana-2.1 on 2026-11-10 from the text prompt below. A synthetic adult; not a real person.",
+      "prompt": "Pose reference photograph: the bottle in an open palm. The product is a frosted-glass dropper serum bottle with a blank cream label, no printing. Soft pink-beige seamless backdrop. Photorealistic e-commerce catalog photograph, soft diffused natural window light, true-to-life color, realistic skin texture and fabric detail, clean uncluttered background. Adult model. No text, no logos, no watermark, no captions, no packaging text."
+    },
+    {
+      "path": "bench/poses/pose-base-and-skincare-two-hands-holding.jpg",
+      "sha256": "cfd961208f912b28f996809f620939ba43ffaf87fe2941519aa81e8e4d379fc3",
+      "kind": "pose-reference",
+      "license": "CC0",
+      "author": "molly554 (AI-generated)",
+      "origin": "Generated with gemini-nano-banana-2.1 on 2026-11-10 from the text prompt below. A synthetic adult; not a real person.",
+      "prompt": "Pose reference photograph: two hands holding the bottle with its front facing the camera. The product is a frosted-glass dropper serum bottle with a blank cream label, no printing. Soft pink-beige seamless backdrop. Photorealistic e-commerce catalog photograph, soft diffused natural window light, true-to-life color, realistic skin texture and fabric detail, clean uncluttered background. Adult model. No text, no logos, no watermark, no captions, no packaging text."
+    },
+    {
+      "path": "bench/poses/pose-dresses-and-skirts-front-stand.jpg",
+      "sha256": "bc2d39323303fb63fc868f7bf8a85e8cd479353434e03f412e26b641969efe0b",
+      "kind": "pose-reference",
+      "license": "CC0",
+      "author": "molly554 (AI-generated)",
+      "origin": "Generated with gemini-nano-banana-2.1 on 2026-11-10 from the text prompt below. A synthetic adult; not a real person.",
+      "prompt": "Pose reference photograph. A woman in her mid thirties of Latina descent with long dark-brown hair and warm tan skin, wearing a flowing satin midi dress, full-length, standing and facing the camera with her arms relaxed at her sides. Bright minimalist studio, plain warm off-white wall. Photorealistic e-commerce catalog photograph, soft diffused natural window light, true-to-life color, realistic skin texture and fabric detail, clean uncluttered background. Adult model. No text, no logos, no watermark, no captions, no packaging text."
+    },
+    {
+      "path": "bench/poses/pose-dresses-and-skirts-three-quarter-turn.jpg",
+      "sha256": "c291c6c1df350c4bea39234527114bee48159e2d19d91fd1b3bb9e21f3b7b2fa",
+      "kind": "pose-reference",
+      "license": "CC0",
+      "author": "molly554 (AI-generated)",
+      "origin": "Generated with gemini-nano-banana-2.1 on 2026-11-10 from the text prompt below. A synthetic adult; not a real person.",
+      "prompt": "Pose reference photograph. A woman in her early thirties of South Asian descent with long black hair and medium brown skin, wearing a flowing satin midi dress, full-length, standing in a three-quarter turn toward the camera, one foot slightly forward. Bright minimalist studio, plain warm off-white wall. Photorealistic e-commerce catalog photograph, soft diffused natural window light, true-to-life color, realistic skin texture and fabric detail, clean uncluttered background. Adult model. No text, no logos, no watermark, no captions, no packaging text."
+    },
+    {
+      "path": "bench/poses/pose-lipstick-held-toward-camera.jpg",
+      "sha256": "b6ed446aebede917a60ed87de1c5c5e6fa4c3ab2f58a795ab6b24497e98b4afe",
+      "kind": "pose-reference",
+      "license": "CC0",
+      "author": "molly554 (AI-generated)",
+      "origin": "Generated with gemini-nano-banana-2.1 on 2026-11-10 from the text prompt below. A synthetic adult; not a real person.",
+      "prompt": "Pose reference photograph. A woman in her late twenties of East Asian descent with straight black shoulder-length hair, holding the lipstick toward the camera, her face softly out of focus. The product is a matte black lipstick tube with the bullet raised in deep rosewood red, plain tube with no printing. Soft pink-beige seamless backdrop. Photorealistic e-commerce catalog photograph, soft diffused natural window light, true-to-life color, realistic skin texture and fabric detail, clean uncluttered background. Adult model. No text, no logos, no watermark, no captions, no packaging text."
+    },
+    {
+      "path": "bench/poses/pose-lipstick-hold-beside-cheek.jpg",
+      "sha256": "a4cf4336c06cd2de0dd5e4449704f8de5a78e1193234ed9d7b641341507f27ff",
+      "kind": "pose-reference",
+      "license": "CC0",
+      "author": "molly554 (AI-generated)",
+      "origin": "Generated with gemini-nano-banana-2.1 on 2026-11-10 from the text prompt below. A synthetic adult; not a real person.",
+      "prompt": "Pose reference photograph. A woman in her mid twenties with short natural black hair and deep brown skin, holding the lipstick beside her cheek, face in three-quarter view. The product is a matte black lipstick tube with the bullet raised in deep rosewood red, plain tube with no printing. Soft pink-beige seamless backdrop. Photorealistic e-commerce catalog photograph, soft diffused natural window light, true-to-life color, realistic skin texture and fabric detail, clean uncluttered background. Adult model. No text, no logos, no watermark, no captions, no packaging text."
+    },
+    {
+      "path": "bench/poses/pose-necklaces-hair-tucked-back.jpg",
+      "sha256": "7f9287991f133a2a37374daa4df870cd47653fe1d06bc46bb496117ebe4a70fd",
+      "kind": "pose-reference",
+      "license": "CC0",
+      "author": "molly554 (AI-generated)",
+      "origin": "Generated with gemini-nano-banana-2.1 on 2026-11-10 from the text prompt below. A synthetic adult; not a real person.",
+      "prompt": "Pose reference photograph. A woman in her early forties with warm olive skin and dark hair with a few silver strands, wearing a delicate gold chain necklace with a small round pendant. Framing and pose: bust portrait with her hair tucked back behind both shoulders, face turned slightly. Plain warm beige backdrop. Photorealistic e-commerce catalog photograph, soft diffused natural window light, true-to-life color, realistic skin texture and fabric detail, clean uncluttered background. Adult model. No text, no logos, no watermark, no captions, no packaging text."
+    },
+    {
+      "path": "bench/poses/pose-rings-hand-relaxed.jpg",
+      "sha256": "42f72b81e23b27afe8b86fe83c141198ef5cadaa952e8d1e2dd0ccf1776e89e2",
+      "kind": "pose-reference",
+      "license": "CC0",
+      "author": "molly554 (AI-generated)",
+      "origin": "Generated with gemini-nano-banana-2.1 on 2026-11-10 from the text prompt below. A synthetic adult; not a real person.",
+      "prompt": "Pose reference photograph: a relaxed hand resting on a linen surface, wearing a stack of slim silver rings. Plain warm beige backdrop. Photorealistic e-commerce catalog photograph, soft diffused natural window light, true-to-life color, realistic skin texture and fabric detail, clean uncluttered background. Adult model. No text, no logos, no watermark, no captions, no packaging text."
+    },
+    {
+      "path": "bench/runs/mini-test-v0.1/images/A02_v0_1k_s1.jpg",
+      "sha256": "df57a080b07e94442608e909028030541cc3b022859b54a12a35fc3132d035cf",
+      "kind": "generated-photo",
+      "license": "CC0",
+      "author": "molly554 (AI-generated)",
+      "origin": "Generated with gemini-nano-banana-2.1 on 2026-11-10 (recipe v0, 1K, sample 1) from bench/golden/images/A02.jpg and bench/poses/pose-dresses-and-skirts-front-stand.jpg. The person is synthetic. Dedicated to the public domain under CC0 1.0 to the extent any rights exist."
+    },
+    {
+      "path": "bench/runs/mini-test-v0.1/images/A02_v0_1k_s2.jpg",
+      "sha256": "bf5a824e381358e190212ac3beacbf89898ec50604026a0923c8db0247afb36a",
+      "kind": "generated-photo",
+      "license": "CC0",
+      "author": "molly554 (AI-generated)",
+      "origin": "Generated with gemini-nano-banana-2.1 on 2026-11-10 (recipe v0, 1K, sample 2) from bench/golden/images/A02.jpg and bench/poses/pose-dresses-and-skirts-front-stand.jpg. The person is synthetic. Dedicated to the public domain under CC0 1.0 to the extent any rights exist."
+    },
+    {
+      "path": "bench/runs/mini-test-v0.1/images/A02_v1_1k_s1.jpg",
+      "sha256": "ae2ffb6ab6d9795158e7c3286bcc24578ed021ccf5896a68222b1479dd4560c1",
+      "kind": "generated-photo",
+      "license": "CC0",
+      "author": "molly554 (AI-generated)",
+      "origin": "Generated with gemini-nano-banana-2.1 on 2026-11-10 (recipe v1, 1K, sample 1) from bench/golden/images/A02.jpg and bench/poses/pose-dresses-and-skirts-front-stand.jpg. The person is synthetic. Dedicated to the public domain under CC0 1.0 to the extent any rights exist."
+    },
+    {
+      "path": "bench/runs/mini-test-v0.1/images/A02_v1_1k_s2.jpg",
+      "sha256": "66fce34c3384b7c54b759b335e93d1ec339b8f933d00b0dd27b578f5c0fc0224",
+      "kind": "generated-photo",
+      "license": "CC0",
+      "author": "molly554 (AI-generated)",
+      "origin": "Generated with gemini-nano-banana-2.1 on 2026-11-10 (recipe v1, 1K, sample 2) from bench/golden/images/A02.jpg and bench/poses/pose-dresses-and-skirts-front-stand.jpg. The person is synthetic. Dedicated to the public domain under CC0 1.0 to the extent any rights exist."
+    },
+    {
+      "path": "bench/runs/mini-test-v0.1/images/A04_v0_1k_s1.jpg",
+      "sha256": "0f974fa04b0c4152c80dff0838a2564d338da528b3068390278c1bd2c54aa61a",
+      "kind": "generated-photo",
+      "license": "CC0",
+      "author": "molly554 (AI-generated)",
+      "origin": "Generated with gemini-nano-banana-2.1 on 2026-11-10 (recipe v0, 1K, sample 1) from bench/golden/images/A04.jpg and bench/poses/pose-dresses-and-skirts-three-quarter-turn.jpg. The person is synthetic. Dedicated to the public domain under CC0 1.0 to the extent any rights exist."
+    },
+    {
+      "path": "bench/runs/mini-test-v0.1/images/A04_v0_1k_s2.jpg",
+      "sha256": "42d5f05cda407ff2d22ab0cde583744a3d970b8023e0c7f62c04b4f10890b6a1",
+      "kind": "generated-photo",
+      "license": "CC0",
+      "author": "molly554 (AI-generated)",
+      "origin": "Generated with gemini-nano-banana-2.1 on 2026-11-10 (recipe v0, 1K, sample 2) from bench/golden/images/A04.jpg and bench/poses/pose-dresses-and-skirts-three-quarter-turn.jpg. The person is synthetic. Dedicated to the public domain under CC0 1.0 to the extent any rights exist."
+    },
+    {
+      "path": "bench/runs/mini-test-v0.1/images/A04_v1_1k_s1.jpg",
+      "sha256": "1d9dbb52b2ef731b243af8d0a176af0eec7fd821fa06094334955d786dca7a08",
+      "kind": "generated-photo",
+      "license": "CC0",
+      "author": "molly554 (AI-generated)",
+      "origin": "Generated with gemini-nano-banana-2.1 on 2026-11-10 (recipe v1, 1K, sample 1) from bench/golden/images/A04.jpg and bench/poses/pose-dresses-and-skirts-three-quarter-turn.jpg. The person is synthetic. Dedicated to the public domain under CC0 1.0 to the extent any rights exist."
+    },
+    {
+      "path": "bench/runs/mini-test-v0.1/images/A04_v1_1k_s2.jpg",
+      "sha256": "dcfe363c9f7d8dd859d89da3eff7d74e48b9bef77a511c917d4732923ed1110a",
+      "kind": "generated-photo",
+      "license": "CC0",
+      "author": "molly554 (AI-generated)",
+      "origin": "Generated with gemini-nano-banana-2.1 on 2026-11-10 (recipe v1, 1K, sample 2) from bench/golden/images/A04.jpg and bench/poses/pose-dresses-and-skirts-three-quarter-turn.jpg. The person is synthetic. Dedicated to the public domain under CC0 1.0 to the extent any rights exist."
+    },
+    {
+      "path": "bench/runs/mini-test-v0.1/images/J01_v0_1k_s1.jpg",
+      "sha256": "8f82e1de7b390079f142d2b3d918c76a027c89cb5562575c939a9c9aaf787061",
+      "kind": "generated-photo",
+      "license": "CC0",
+      "author": "molly554 (AI-generated)",
+      "origin": "Generated with gemini-nano-banana-2.1 on 2026-11-10 (recipe v0, 1K, sample 1) from bench/golden/images/J01.jpg and bench/poses/pose-necklaces-hair-tucked-back.jpg. The person is synthetic. Dedicated to the public domain under CC0 1.0 to the extent any rights exist."
+    },
+    {
+      "path": "bench/runs/mini-test-v0.1/images/J01_v0_1k_s2.jpg",
+      "sha256": "ad5565f41044538ecfa668db138fc301df98ea3ef639526711045b0fa0fa5bce",
+      "kind": "generated-photo",
+      "license": "CC0",
+      "author": "molly554 (AI-generated)",
+      "origin": "Generated with gemini-nano-banana-2.1 on 2026-11-10 (recipe v0, 1K, sample 2) from bench/golden/images/J01.jpg and bench/poses/pose-necklaces-hair-tucked-back.jpg. The person is synthetic. Dedicated to the public domain under CC0 1.0 to the extent any rights exist."
+    },
+    {
+      "path": "bench/runs/mini-test-v0.1/images/J01_v1_1k_s1.jpg",
+      "sha256": "fc71f7d9038a4625eae72d7cbe617021b92f603a3c9edf43b9ddb9d11d13dd23",
+      "kind": "generated-photo",
+      "license": "CC0",
+      "author": "molly554 (AI-generated)",
+      "origin": "Generated with gemini-nano-banana-2.1 on 2026-11-10 (recipe v1, 1K, sample 1) from bench/golden/images/J01.jpg and bench/poses/pose-necklaces-hair-tucked-back.jpg. The person is synthetic. Dedicated to the public domain under CC0 1.0 to the extent any rights exist."
+    },
+    {
+      "path": "bench/runs/mini-test-v0.1/images/J01_v1_1k_s2.jpg",
+      "sha256": "4b3289f6587648ac038dbe136c0fd2b51c0f0f9c442e1d8ebc7d05ff92c7a86a",
+      "kind": "generated-photo",
+      "license": "CC0",
+      "author": "molly554 (AI-generated)",
+      "origin": "Generated with gemini-nano-banana-2.1 on 2026-11-10 (recipe v1, 1K, sample 2) from bench/golden/images/J01.jpg and bench/poses/pose-necklaces-hair-tucked-back.jpg. The person is synthetic. Dedicated to the public domain under CC0 1.0 to the extent any rights exist."
+    },
+    {
+      "path": "bench/runs/mini-test-v0.1/images/K04_repair_1k_s1.jpg",
+      "sha256": "6a3b83c4283981eabd4c4bf4a79dc131b08b07694abd3f14fca064c312c7f910",
+      "kind": "generated-photo",
+      "license": "CC0",
+      "author": "molly554 (AI-generated)",
+      "origin": "Generated with gemini-nano-banana-2.1 on 2026-11-10 (recipe repair, 1K, sample 1) from bench/golden/images/K04.jpg and bench/poses/pose-lipstick-held-toward-camera.jpg. The person is synthetic. Dedicated to the public domain under CC0 1.0 to the extent any rights exist."
+    },
+    {
+      "path": "bench/runs/mini-test-v0.1/images/K04_v0_1k_s1.jpg",
+      "sha256": "d614295582812f7529ef1f5c16639d6583d14d636b636653b97ab60571f2c8e1",
+      "kind": "generated-photo",
+      "license": "CC0",
+      "author": "molly554 (AI-generated)",
+      "origin": "Generated with gemini-nano-banana-2.1 on 2026-11-10 (recipe v0, 1K, sample 1) from bench/golden/images/K04.jpg and bench/poses/pose-lipstick-held-toward-camera.jpg. The person is synthetic. Dedicated to the public domain under CC0 1.0 to the extent any rights exist."
+    },
+    {
+      "path": "bench/runs/mini-test-v0.1/images/K04_v0_1k_s2.jpg",
+      "sha256": "64fb376a0bdce2818318c1068f4075592a646070baedcb12880e4f8f3c541b7e",
+      "kind": "generated-photo",
+      "license": "CC0",
+      "author": "molly554 (AI-generated)",
+      "origin": "Generated with gemini-nano-banana-2.1 on 2026-11-10 (recipe v0, 1K, sample 2) from bench/golden/images/K04.jpg and bench/poses/pose-lipstick-held-toward-camera.jpg. The person is synthetic. Dedicated to the public domain under CC0 1.0 to the extent any rights exist."
+    },
+    {
+      "path": "bench/runs/mini-test-v0.1/images/K04_v1_2k_s1.jpg",
+      "sha256": "2a05366fa65be895ac0bb62ad7e046239b2d003ecdc906b66702189fe0bfe36a",
+      "kind": "generated-photo",
+      "license": "CC0",
+      "author": "molly554 (AI-generated)",
+      "origin": "Generated with gemini-nano-banana-2.1 on 2026-11-10 (recipe v1, 2K, sample 1) from bench/golden/images/K04.jpg and bench/poses/pose-lipstick-held-toward-camera.jpg. The person is synthetic. Dedicated to the public domain under CC0 1.0 to the extent any rights exist."
+    },
+    {
+      "path": "bench/runs/mini-test-v0.1/images/K04_v1_2k_s2.jpg",
+      "sha256": "318bc758dc406039c150f41cf4e439a5d7cc48bf9699752ab88ffb379f038747",
+      "kind": "generated-photo",
+      "license": "CC0",
+      "author": "molly554 (AI-generated)",
+      "origin": "Generated with gemini-nano-banana-2.1 on 2026-11-10 (recipe v1, 2K, sample 2) from bench/golden/images/K04.jpg and bench/poses/pose-lipstick-held-toward-camera.jpg. The person is synthetic. Dedicated to the public domain under CC0 1.0 to the extent any rights exist."
+    },
+    {
+      "path": "bench/runs/mini-test-v0.1/images/K04_v1_1k_s1.jpg",
+      "sha256": "04ddc39098deff32489742c586477021cc0a07a97a395ffbe32659839d665ae4",
+      "kind": "generated-photo",
+      "license": "CC0",
+      "author": "molly554 (AI-generated)",
+      "origin": "Generated with gemini-nano-banana-2.1 on 2026-11-10 (recipe v1, 1K, sample 1) from bench/golden/images/K04.jpg and bench/poses/pose-lipstick-held-toward-camera.jpg. The person is synthetic. Dedicated to the public domain under CC0 1.0 to the extent any rights exist."
+    },
+    {
+      "path": "bench/runs/mini-test-v0.1/images/K04_v1_1k_s2.jpg",
+      "sha256": "5ab0002d40d6aee2f96f6c5b4d7580b932b3f239ff1feea48705be0ba9f090e8",
+      "kind": "generated-photo",
+      "license": "CC0",
+      "author": "molly554 (AI-generated)",
+      "origin": "Generated with gemini-nano-banana-2.1 on 2026-11-10 (recipe v1, 1K, sample 2) from bench/golden/images/K04.jpg and bench/poses/pose-lipstick-held-toward-camera.jpg. The person is synthetic. Dedicated to the public domain under CC0 1.0 to the extent any rights exist."
+    },
+    {
+      "path": "docs/img/hero.png",
+      "sha256": "f692cc4719097cd6da05849483a099c5f4cd312873f89503a9ad02f3629924d0",
+      "kind": "figure",
+      "license": "CC BY 4.0",
+      "author": "molly554",
+      "origin": "Built by docs/img/src/make_hero.py from CC0 and public-domain photos in this repository."
+    },
+    {
+      "path": "docs/img/social-preview.jpg",
+      "sha256": "d6cfc70fd4d9d722bf85e7c138bb6a7cd0428bf3a17fb4493b1a6fff8b1599e3",
+      "kind": "figure",
+      "license": "CC BY 4.0",
+      "author": "molly554",
+      "origin": "Built by docs/img/src/make_hero.py from CC0 and public-domain photos in this repository."
+    },
+    {
+      "path": "docs/img/src/crops/product-context.jpg",
+      "sha256": "d8569b1cb75c03cc60b16bd2ab29fff1b26a8c904d22085cec97dd052ca8beab",
+      "kind": "figure-crop",
+      "license": "CC0",
+      "author": "molly554",
+      "origin": "Crop of bench/golden/images/K04.jpg or of a generated photo in bench/runs/mini-test-v0.1/images/, made by docs/img/src/make_hero.py."
+    },
+    {
+      "path": "docs/img/src/crops/product-label.jpg",
+      "sha256": "13d696474c391370762c9b9b74e64961c57adfacb912380ff64c7a9df703062c",
+      "kind": "figure-crop",
+      "license": "CC0",
+      "author": "molly554",
+      "origin": "Crop of bench/golden/images/K04.jpg or of a generated photo in bench/runs/mini-test-v0.1/images/, made by docs/img/src/make_hero.py."
+    },
+    {
+      "path": "docs/img/src/crops/r1k-context.jpg",
+      "sha256": "4cc96b228d1aaf68312c1a1009500f71fd7c81fa60533f159fa5cda361f8f3fc",
+      "kind": "figure-crop",
+      "license": "CC0",
+      "author": "molly554",
+      "origin": "Crop of bench/golden/images/K04.jpg or of a generated photo in bench/runs/mini-test-v0.1/images/, made by docs/img/src/make_hero.py."
+    },
+    {
+      "path": "docs/img/src/crops/r1k-label.jpg",
+      "sha256": "f733bd7c7f9218381f3b46a7e3b232fdbe475b1a5195e58870f2adb019f745ff",
+      "kind": "figure-crop",
+      "license": "CC0",
+      "author": "molly554",
+      "origin": "Crop of bench/golden/images/K04.jpg or of a generated photo in bench/runs/mini-test-v0.1/images/, made by docs/img/src/make_hero.py."
+    },
+    {
+      "path": "docs/img/src/crops/r2k-context.jpg",
+      "sha256": "018d06f8540e05144feef0fd15ab4ac2009ad0362cad54abd3d85ecc8a0b59ff",
+      "kind": "figure-crop",
+      "license": "CC0",
+      "author": "molly554",
+      "origin": "Crop of bench/golden/images/K04.jpg or of a generated photo in bench/runs/mini-test-v0.1/images/, made by docs/img/src/make_hero.py."
+    },
+    {
+      "path": "docs/img/src/crops/r2k-label.jpg",
+      "sha256": "087c17df0d12c24f0104cbe2afe8b2b65c2dfdefb7cb582be34c5da278820fb7",
+      "kind": "figure-crop",
+      "license": "CC0",
+      "author": "molly554",
+      "origin": "Crop of bench/golden/images/K04.jpg or of a generated photo in bench/runs/mini-test-v0.1/images/, made by docs/img/src/make_hero.py."
+    }
+  ]
+}

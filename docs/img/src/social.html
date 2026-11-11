@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><title>onmodel social preview</title>
+<style>
+  * { box-sizing: border-box; }
+  html, body { margin: 0; }
+  body { width: 1280px; height: 640px; background: #ffffff; color: #1f2328; position: relative; overflow: hidden;
+         font-family: "Segoe UI", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, sans-serif; }
+  .left { position: absolute; left: 72px; top: 0; bottom: 0; width: 560px; display: flex; flex-direction: column; justify-content: center; }
+  .name { font-size: 84px; font-weight: 800; letter-spacing: -2px; line-height: 1; }
+  .tag { margin-top: 22px; font-size: 38px; font-weight: 600; line-height: 1.2; letter-spacing: -0.4px; }
+  .sub { margin-top: 18px; font-size: 25px; color: #59636e; }
+  .url { position: absolute; left: 72px; bottom: 44px; font-size: 22px; color: #59636e; font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+  .right { position: absolute; right: 56px; top: 50px; width: 540px; display: grid; gap: 16px; }
+  .shot { position: relative; }
+  .shot img { display: block; width: 100%; border-radius: 12px; border: 5px solid; }
+  .shot.bad img { border-color: #cf222e; } .shot.ok img { border-color: #1a7f37; }
+  .pill { position: absolute; left: 14px; bottom: 14px; padding: 7px 14px; border-radius: 999px; font-size: 21px; font-weight: 700; color: #fff; }
+  .bad .pill { background: #cf222e; } .ok .pill { background: #1a7f37; }
+</style></head>
+<body>
+  <div class="left">
+    <div class="name">onmodel</div>
+    <div class="tag">Does your AI model photo still look like your product?</div>
+    <div class="sub">A skill, a CLI and an open benchmark.</div>
+  </div>
+  <div class="url">github.com/molly554/onmodel</div>
+  <div class="right">
+    <div class="shot bad"><img src="crops/r1k-label.jpg" alt=""><span class="pill">Generated at 1K &middot; Verified: no</span></div>
+    <div class="shot ok"><img src="crops/r2k-label.jpg" alt=""><span class="pill">Generated at 2K &middot; Verified: yes</span></div>
+  </div>
+</body></html>

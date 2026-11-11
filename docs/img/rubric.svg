@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" viewBox="0 0 1200 616" width="1200" height="616" role="img" aria-labelledby="t d"><title id="t">The onmodel rubric</title><desc id="d">Nine questions in five dimensions of 0 to 2 points each. Product fidelity is the lowest of shape, color, material, text and parts. A photo is Verified when product fidelity is 2 of 2, the total is at least 8 of 10 and no veto defect was found.</desc><defs><marker id="arrow" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#59636e"/></marker></defs><rect x="0.75" y="0.75" width="1198.5" height="614.5" rx="16" fill="#ffffff" stroke="#d0d7de" stroke-width="1.5"/><text x="44" y="64" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="30" font-weight="700" fill="#1f2328" text-anchor="start">Nine questions, five dimensions, one verdict</text>
+<text x="44" y="96" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="18" font-weight="400" fill="#59636e" text-anchor="start">A reviewer answers. Code scores. The questions never change.</text>
+<rect x="44" y="128" width="410" height="196" rx="12" fill="#e6f6f4" stroke="#0f766e" stroke-width="2"/>
+<text x="62" y="162" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="21" font-weight="700" fill="#0b514b" text-anchor="start">Product fidelity</text>
+<text x="62" y="186" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" font-weight="400" fill="#0b514b" text-anchor="start">0 to 2 points: the lowest of the five</text>
+<rect x="62" y="210" width="64" height="30" rx="15.0" fill="#ffffff" stroke="#0f766e" stroke-width="1.2"/>
+<text x="94.0" y="229.76" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#0b514b" text-anchor="middle">Shape</text>
+<rect x="134" y="210" width="60" height="30" rx="15.0" fill="#ffffff" stroke="#0f766e" stroke-width="1.2"/>
+<text x="164.0" y="229.76" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#0b514b" text-anchor="middle">Color</text>
+<rect x="202" y="210" width="86" height="30" rx="15.0" fill="#ffffff" stroke="#0f766e" stroke-width="1.2"/>
+<text x="245.0" y="229.76" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#0b514b" text-anchor="middle">Material</text>
+<rect x="296" y="210" width="52" height="30" rx="15.0" fill="#ffffff" stroke="#0f766e" stroke-width="1.2"/>
+<text x="322.0" y="229.76" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#0b514b" text-anchor="middle">Text</text>
+<rect x="356" y="210" width="60" height="30" rx="15.0" fill="#ffffff" stroke="#0f766e" stroke-width="1.2"/>
+<text x="386.0" y="229.76" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#0b514b" text-anchor="middle">Parts</text>
+<text x="62" y="274" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" font-weight="400" fill="#0b514b" text-anchor="start">Does the product still look like the real one?</text>
+<rect x="470" y="128" width="162" height="196" rx="12" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1.5"/>
+<text x="486" y="162" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="20" font-weight="700" fill="#1f2328" text-anchor="start">Pose</text>
+<text x="486" y="186" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" font-weight="400" fill="#59636e" text-anchor="start">0 to 2 points</text>
+<text x="486" y="218" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" font-weight="400" fill="#1f2328" text-anchor="start">Follows the pose</text>
+<text x="486" y="238.7" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" font-weight="400" fill="#1f2328" text-anchor="start">photo: pose,</text>
+<text x="486" y="259.4" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" font-weight="400" fill="#1f2328" text-anchor="start">framing, camera</text>
+<text x="486" y="280.09999999999997" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" font-weight="400" fill="#1f2328" text-anchor="start">angle.</text>
+<rect x="644" y="128" width="162" height="196" rx="12" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1.5"/>
+<text x="660" y="162" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="20" font-weight="700" fill="#1f2328" text-anchor="start">Identity</text>
+<text x="660" y="186" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" font-weight="400" fill="#59636e" text-anchor="start">0 to 2 points</text>
+<text x="660" y="218" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" font-weight="400" fill="#1f2328" text-anchor="start">Same person. No</text>
+<text x="660" y="238.7" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" font-weight="400" fill="#1f2328" text-anchor="start">hand, mannequin</text>
+<text x="660" y="259.4" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" font-weight="400" fill="#1f2328" text-anchor="start">or person from</text>
+<text x="660" y="280.09999999999997" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" font-weight="400" fill="#1f2328" text-anchor="start">the product</text>
+<text x="660" y="300.79999999999995" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" font-weight="400" fill="#1f2328" text-anchor="start">photo.</text>
+<rect x="818" y="128" width="162" height="196" rx="12" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1.5"/>
+<text x="834" y="162" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="20" font-weight="700" fill="#1f2328" text-anchor="start">Artifacts</text>
+<text x="834" y="186" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" font-weight="400" fill="#59636e" text-anchor="start">0 to 2 points</text>
+<text x="834" y="218" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" font-weight="400" fill="#1f2328" text-anchor="start">No extra</text>
+<text x="834" y="238.7" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" font-weight="400" fill="#1f2328" text-anchor="start">fingers, melted</text>
+<text x="834" y="259.4" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" font-weight="400" fill="#1f2328" text-anchor="start">objects, stray</text>
+<text x="834" y="280.09999999999997" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" font-weight="400" fill="#1f2328" text-anchor="start">text or</text>
+<text x="834" y="300.79999999999995" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" font-weight="400" fill="#1f2328" text-anchor="start">watermarks.</text>
+<rect x="992" y="128" width="162" height="196" rx="12" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1.5"/>
+<text x="1008" y="162" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="20" font-weight="700" fill="#1f2328" text-anchor="start">Scale</text>
+<text x="1008" y="186" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" font-weight="400" fill="#59636e" text-anchor="start">0 to 2 points</text>
+<text x="1008" y="218" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" font-weight="400" fill="#1f2328" text-anchor="start">The product&#x27;s</text>
+<text x="1008" y="238.7" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" font-weight="400" fill="#1f2328" text-anchor="start">real size is</text>
+<text x="1008" y="259.4" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" font-weight="400" fill="#1f2328" text-anchor="start">right against</text>
+<text x="1008" y="280.09999999999997" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" font-weight="400" fill="#1f2328" text-anchor="start">the body.</text>
+<text x="44" y="376" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="16" font-weight="700" fill="#1f2328" text-anchor="start">Each answer scores</text>
+<rect x="232" y="352" width="110" height="36" rx="18" fill="#dafbe1" stroke="#1a7f37" stroke-width="1.2"/>
+<text x="250" y="376" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#116329" text-anchor="start">same</text>
+<text x="326" y="376" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="16" font-weight="700" fill="#116329" text-anchor="end">2</text>
+<rect x="354" y="352" width="119" height="36" rx="18" fill="#fef3c7" stroke="#b45309" stroke-width="1.2"/>
+<text x="372" y="376" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#7c3a06" text-anchor="start">minor</text>
+<text x="457" y="376" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="16" font-weight="700" fill="#7c3a06" text-anchor="end">1</text>
+<rect x="485" y="352" width="155" height="36" rx="18" fill="#ffebe9" stroke="#cf222e" stroke-width="1.2"/>
+<text x="503" y="376" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#a40e26" text-anchor="start">different</text>
+<text x="624" y="376" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="16" font-weight="700" fill="#a40e26" text-anchor="end">0</text>
+<rect x="652" y="352" width="173" height="36" rx="18" fill="#f0f2f4" stroke="#6e7781" stroke-width="1.2"/>
+<text x="670" y="376" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#424a53" text-anchor="start">cannot tell</text>
+<text x="809" y="376" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="16" font-weight="700" fill="#424a53" text-anchor="end">1</text>
+<rect x="837" y="352" width="200" height="36" rx="18" fill="#f0f2f4" stroke="#6e7781" stroke-width="1.2"/>
+<text x="855" y="376" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#424a53" text-anchor="start">not applicable</text>
+<text x="1021" y="376" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="16" font-weight="700" fill="#424a53" text-anchor="end">2</text>
+<rect x="44" y="414" width="1112" height="176" rx="14" fill="#e6f6f4" stroke="#0f766e" stroke-width="2"/>
+<text x="66" y="452" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="22" font-weight="700" fill="#0b514b" text-anchor="start">Verified</text>
+<text x="168" y="452" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="20" font-weight="600" fill="#0b514b" text-anchor="start">=   product fidelity 2 / 2   +   total at least 8 / 10   +   no veto defect</text>
+<text x="66" y="488" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="16" font-weight="400" fill="#0b514b" text-anchor="start">Any one veto defect blocks Verified, whatever the points say:</text>
+<rect x="66" y="506" width="141.8" height="30" rx="15.0" fill="#ffffff" stroke="#0f766e" stroke-width="1.2"/>
+<text x="136.9" y="525.93" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14.5" font-weight="600" fill="#0b514b" text-anchor="middle">wrong product</text>
+<rect x="217.8" y="506" width="184.79999999999998" height="30" rx="15.0" fill="#ffffff" stroke="#0f766e" stroke-width="1.2"/>
+<text x="310.2" y="525.93" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14.5" font-weight="600" fill="#0b514b" text-anchor="middle">wrong color family</text>
+<rect x="412.6" y="506" width="236.39999999999998" height="30" rx="15.0" fill="#ffffff" stroke="#0f766e" stroke-width="1.2"/>
+<text x="530.8" y="525.93" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14.5" font-weight="600" fill="#0b514b" text-anchor="middle">wrong large word or logo</text>
+<rect x="659.0" y="506" width="133.2" height="30" rx="15.0" fill="#ffffff" stroke="#0f766e" stroke-width="1.2"/>
+<text x="725.6" y="525.93" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14.5" font-weight="600" fill="#0b514b" text-anchor="middle">missing part</text>
+<rect x="802.2" y="506" width="133.2" height="30" rx="15.0" fill="#ffffff" stroke="#0f766e" stroke-width="1.2"/>
+<text x="868.8000000000001" y="525.93" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14.5" font-weight="600" fill="#0b514b" text-anchor="middle">merged parts</text>
+<rect x="945.4000000000001" y="506" width="116.0" height="30" rx="15.0" fill="#ffffff" stroke="#0f766e" stroke-width="1.2"/>
+<text x="1003.4000000000001" y="525.93" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14.5" font-weight="600" fill="#0b514b" text-anchor="middle">extra part</text>
+<rect x="66" y="544" width="288.0" height="30" rx="15.0" fill="#ffffff" stroke="#0f766e" stroke-width="1.2"/>
+<text x="210.0" y="563.93" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14.5" font-weight="600" fill="#0b514b" text-anchor="middle">hand or mannequin carried over</text>
+<rect x="364.0" y="544" width="167.6" height="30" rx="15.0" fill="#ffffff" stroke="#0f766e" stroke-width="1.2"/>
+<text x="447.8" y="563.93" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14.5" font-weight="600" fill="#0b514b" text-anchor="middle">severe deformity</text></svg>

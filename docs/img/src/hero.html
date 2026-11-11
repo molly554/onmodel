@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><title>onmodel hero</title>
+<style>
+  * { box-sizing: border-box; }
+  html, body { margin: 0; }
+  body { width: 1600px; height: 1000px; background: #ffffff; color: #1f2328; padding: 44px 64px 0; position: relative;
+         font-family: "Segoe UI", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, sans-serif; }
+  h1 { margin: 0; font-size: 40px; line-height: 1.15; letter-spacing: -0.4px; font-weight: 700; white-space: nowrap; }
+  .sub { margin: 10px 0 0; font-size: 23px; color: #59636e; line-height: 1.35; }
+  .grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 36px; margin-top: 26px; }
+  .card .kicker { font-size: 18px; font-weight: 700; letter-spacing: 1.4px; text-transform: uppercase; color: #59636e; margin-bottom: 10px; }
+  .card .kicker b { color: #1f2328; }
+  .shot { width: 100%; display: block; border-radius: 8px; border: 1px solid #d0d7de; }
+  .label { margin-top: 12px; border-width: 4px; }
+  .label.real { border-color: #8c959f; } .label.bad { border-color: #cf222e; } .label.ok { border-color: #1a7f37; }
+  .cap { margin: 8px 0 0; font-size: 19px; color: #59636e; min-height: 26px; white-space: nowrap; }
+  .chip { margin-top: 12px; border-radius: 8px; padding: 12px 16px; display: grid; gap: 2px; min-height: 116px; align-content: start; }
+  .chip.bad { background: #ffebe9; border: 1px solid #ff8182; } .chip.ok { background: #dafbe1; border: 1px solid #4ac26b; }
+  .chip.plain { background: #f6f8fa; border: 1px solid #d0d7de; }
+  .chip .verdict { font-size: 26px; font-weight: 700; }
+  .chip.bad .verdict { color: #a40e26; } .chip.ok .verdict { color: #116329; } .chip.plain .verdict { color: #1f2328; }
+  .chip .nums { font-size: 20px; font-variant-numeric: tabular-nums; } .chip .note { font-size: 19px; color: #424a53; }
+  footer { position: absolute; left: 64px; right: 64px; bottom: 22px; font-size: 16px; line-height: 1.4; color: #59636e; }
+</style></head>
+<body>
+  <h1>Same product, same prompt, same engine. Only the render size changed.</h1>
+  <p class="sub">The small print under the logo is the first thing an image engine gets wrong. Real photos from our mini test, label enlarged.</p>
+  <div class="grid">
+    <div class="card">
+      <div class="kicker"><b>Real product</b> &nbsp;photo</div>
+      <img class="shot" src="crops/product-context.jpg" alt="The real product: a blue lip balm tube on a table">
+      <img class="shot label real" src="crops/product-label.jpg" alt="The real label: Labello Classic, Soin Protecteur et Nourrissant au quotidien">
+      <p class="cap">Small print: Soin Protecteur et Nourrissant au quotidien</p>
+      <div class="chip plain"><span class="verdict">Ground truth</span><span class="nums">The photo every result is checked against</span></div>
+    </div>
+    <div class="card">
+      <div class="kicker"><b>Generated at 1K</b> &nbsp;896 &times; 1200</div>
+      <img class="shot" src="crops/r1k-context.jpg" alt="A person holding the product, generated at 1K">
+      <img class="shot label bad" src="crops/r1k-label.jpg" alt="The label of the 1K photo: the logo is right, the small print is gibberish">
+      <p class="cap">Logo right. Small print is gibberish.</p>
+      <div class="chip bad"><span class="verdict">Verified: no</span><span class="nums">Fidelity 0 / 2 &nbsp;&middot;&nbsp; Total 8 / 10</span><span class="note">text: different (TEXT_GARBLE)</span></div>
+    </div>
+    <div class="card">
+      <div class="kicker"><b>Generated at 2K</b> &nbsp;1792 &times; 2400</div>
+      <img class="shot" src="crops/r2k-context.jpg" alt="A person holding the product, generated at 2K">
+      <img class="shot label ok" src="crops/r2k-label.jpg" alt="The label of the 2K photo: logo and small print are both correct">
+      <p class="cap">Logo right. Small print reads correctly.</p>
+      <div class="chip ok"><span class="verdict">Verified: yes</span><span class="nums">Fidelity 2 / 2 &nbsp;&middot;&nbsp; Total 10 / 10</span><span class="note">nine of nine checks: same</span></div>
+    </div>
+  </div>
+  <footer>Engine: gemini-nano-banana-2.1, recipe v1, sample 1 of 2 (sample 2 behaved the same at each size). Product photo: Wikimedia Commons, CC0. The scorecards come from
+  <code>onmodel score</code> on a checklist filled in by hand from our review notes, not from a model reviewer. Method and data: docs/mini-test.md</footer>
+</body></html>

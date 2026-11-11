@@ -1,0 +1,30 @@
+name: New engine or reviewer adapter
+description: Propose an adapter for another image engine or reviewer.
+labels: ["adapter"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Engine or reviewer
+      description: Name and version.
+    validations:
+      required: true
+  - type: textarea
+    id: api
+    attributes:
+      label: How it is called
+      description: Link to the API documentation. How many reference images does it accept? Which resolutions? How is it priced?
+    validations:
+      required: true
+  - type: textarea
+    id: terms
+    attributes:
+      label: Terms
+      description: Do the provider's terms allow benchmarking and publishing the results? Link them.
+  - type: checkboxes
+    id: plan
+    attributes:
+      label: Plan
+      options:
+        - label: I plan to send a pull request with the adapter and a test (see docs/bring-your-engine.md).
+        - label: I only want to suggest it.

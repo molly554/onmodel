@@ -1,0 +1,147 @@
+{
+  "photos": 52,
+  "cases": [
+    "A02",
+    "A04",
+    "G02",
+    "J01",
+    "J03",
+    "K01",
+    "K04",
+    "K07",
+    "K10"
+  ],
+  "labels": {
+    "fail": 3,
+    "minor": 23,
+    "pass": 26
+  },
+  "small_print": {
+    "1k": {
+      "photos": 8,
+      "garbled": 8
+    },
+    "2k": {
+      "photos": 4,
+      "garbled": 0
+    },
+    "repair": {
+      "photos": 2,
+      "garbled": 2
+    },
+    "pro": {
+      "photos": 2,
+      "garbled": 2
+    }
+  },
+  "parts": {
+    "K10": {
+      "v0": {
+        "photos": 2,
+        "with_part_defect": 2
+      },
+      "v1": {
+        "photos": 2,
+        "with_part_defect": 0
+      },
+      "v1_2k": {
+        "photos": 2,
+        "with_part_defect": 1
+      }
+    },
+    "G02": {
+      "v0": {
+        "photos": 2,
+        "with_part_defect": 0
+      },
+      "v1": {
+        "photos": 2,
+        "with_part_defect": 0
+      },
+      "v1_2k": {
+        "photos": 0,
+        "with_part_defect": 0
+      }
+    }
+  },
+  "hem_length": {
+    "photos": 8,
+    "followed_the_pose_photo": 5
+  },
+  "label_covered": {
+    "by_case": {
+      "K01": {
+        "photos": 8,
+        "label_covered": 6
+      },
+      "K04": {
+        "photos": 8,
+        "label_covered": 0
+      },
+      "K07": {
+        "photos": 8,
+        "label_covered": 0
+      },
+      "K10": {
+        "photos": 8,
+        "label_covered": 0
+      }
+    },
+    "photos": 32,
+    "covered": 6
+  },
+  "reviewers": {
+    "judge_a": {
+      "model": "gemini-3.5-flash-lite",
+      "photos": 52,
+      "agree_with_label": 0.6,
+      "kappa_with_label": 0.38,
+      "says_pass": 0.38,
+      "caught_failures": "3 of 3",
+      "false_failures": 12,
+      "gave_every_aspect_a_1": 0
+    },
+    "judge_b": {
+      "model": "gemini-3.5-flash",
+      "photos": 52,
+      "agree_with_label": 0.38,
+      "kappa_with_label": 0.0,
+      "says_pass": 0.06,
+      "caught_failures": "0 of 3",
+      "false_failures": 8,
+      "gave_every_aspect_a_1": 28
+    },
+    "label_says_pass": 0.5,
+    "judges_agree_with_each_other": 0.4,
+    "kappa_between_judges": 0.12
+  },
+  "text_rule": {
+    "threshold": 0.25,
+    "ok": {
+      "photos": 17,
+      "flagged": 2
+    },
+    "garbled_small_print": {
+      "photos": 12,
+      "flagged": 12
+    },
+    "fail": {
+      "photos": 3,
+      "flagged": 3
+    }
+  },
+  "seconds_per_photo": {
+    "1k": {
+      "photos": 36,
+      "seconds_avg": 21.6
+    },
+    "2k": {
+      "photos": 8,
+      "seconds_avg": 41.7
+    },
+    "pro": {
+      "photos": 4,
+      "seconds_avg": 23.6
+    }
+  }
+}

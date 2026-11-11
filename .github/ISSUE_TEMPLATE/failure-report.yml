@@ -1,0 +1,45 @@
+name: Failure report
+description: A photo where onmodel's verdict was wrong, or where an engine failed in a way the rubric does not name.
+labels: ["failure-report"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you. Please share only photos you have the right to share, and never photos of real people who have not agreed to it.
+        You can describe the problem without a photo.
+  - type: dropdown
+    id: kind
+    attributes:
+      label: What went wrong
+      options:
+        - onmodel said Verified, but the photo does not show the product
+        - onmodel said not Verified, but the photo is fine
+        - The engine made a mistake that no defect code describes
+        - Something else
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: What did you expect, and what did you get? Which part of the photo is wrong?
+    validations:
+      required: true
+  - type: textarea
+    id: command
+    attributes:
+      label: The command you ran, and its output
+      description: Run it again with `--json` and paste the judgment record. It names files and hashes, never folders or keys.
+      render: shell
+  - type: input
+    id: versions
+    attributes:
+      label: Versions
+      description: "Output of `onmodel version`, the reviewer you used, and the image engine."
+  - type: checkboxes
+    id: rights
+    attributes:
+      label: Photos
+      options:
+        - label: I have the right to share any photo I attach, or I attached none.
+          required: true

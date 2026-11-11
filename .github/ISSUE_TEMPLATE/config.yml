@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Documentation
+    url: https://github.com/molly554/onmodel/blob/main/docs/quickstart.md
+    about: The quickstart, the rubric and the benchmark guide.

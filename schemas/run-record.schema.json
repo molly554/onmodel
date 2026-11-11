@@ -1,0 +1,99 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/molly554/onmodel/schemas/run-record.schema.json",
+  "title": "onmodel generation record",
+  "description": "One line of a run's ledger.jsonl: what was asked of the engine and what came back.",
+  "type": "object",
+  "properties": {
+    "schema": {
+      "const": "onmodel/run-record@1"
+    },
+    "file": {
+      "type": "string"
+    },
+    "case": {
+      "type": "string"
+    },
+    "variant": {
+      "enum": [
+        "v0",
+        "v1",
+        "repair"
+      ]
+    },
+    "res": {
+      "type": "string"
+    },
+    "sample": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "ratio": {
+      "type": "string"
+    },
+    "engine": {
+      "type": "string"
+    },
+    "stamp": {
+      "type": "object"
+    },
+    "recipe_version": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "prompt_sha": {
+      "type": "string"
+    },
+    "prompt": {
+      "type": "string"
+    },
+    "pose": {
+      "type": "string"
+    },
+    "ok": {
+      "type": "boolean"
+    },
+    "error": {
+      "type": "string"
+    },
+    "seconds": {
+      "type": "number"
+    },
+    "cost_lo": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "cost_hi": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "usage": {
+      "type": "object"
+    },
+    "onmodel_version": {
+      "type": "string"
+    },
+    "ts": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "schema",
+    "file",
+    "case",
+    "variant",
+    "res",
+    "sample",
+    "engine",
+    "prompt_sha",
+    "ok",
+    "ts"
+  ],
+  "additionalProperties": true
+}

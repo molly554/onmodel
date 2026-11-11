@@ -1,0 +1,18 @@
+{
+  "items": {
+    "shape": { "answer": "same" },
+    "color": { "answer": "same" },
+    "material": { "answer": "same" },
+    "text": { "answer": "different", "evidence": "small print under the logo is gibberish", "where": "front of the tube" },
+    "parts": { "answer": "same" },
+    "pose": { "answer": "same" },
+    "identity": { "answer": "same" },
+    "artifacts": { "answer": "same" },
+    "scale": { "answer": "same" }
+  },
+  "defects": [
+    { "code": "TEXT_GARBLE", "where": "front of the tube", "evidence": "the line under the logo reads as unrelated letters" }
+  ],
+  "text_in_reference": "LABELLO CLASSIC SOIN PROTECTEUR NOURRISSANT QUOTIDIEN",
+  "text_in_generated": "LABELLO CLASSIC SOLN PROTCTEUR NOURISSNT"
+}

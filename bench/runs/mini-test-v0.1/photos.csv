@@ -1,0 +1,53 @@
+file,published,case,variant,engine,res,sample,label,label_tags,label_note,judge_a,judge_a_level,judge_a_all_ones,judge_b,judge_b_level,judge_b_all_ones,ocr_readable_recall,ocr_gt_recall,seconds
+A02_v0_1k_s1.jpg,yes,A02,v0,gemini-nano-banana-2.1,1k,1,pass,,knee length as the real dress,gemini-3.5-flash-lite,pass,no,gemini-3.5-flash,pass,no,,,15.7
+A02_v0_1k_s2.jpg,yes,A02,v0,gemini-nano-banana-2.1,1k,2,minor,shape_length,hem follows the pose sample (mid-calf) instead of knee length,gemini-3.5-flash-lite,pass,no,gemini-3.5-flash,minor,no,,,14.7
+A02_v1_1k_s1.jpg,yes,A02,v1,gemini-nano-banana-2.1,1k,1,minor,shape_length,hem follows the pose sample (mid-calf),gemini-3.5-flash-lite,pass,no,gemini-3.5-flash,minor,no,,,12.3
+A02_v1_1k_s2.jpg,yes,A02,v1,gemini-nano-banana-2.1,1k,2,pass,,knee length as the real dress,gemini-3.5-flash-lite,pass,no,gemini-3.5-flash,minor,no,,,19.1
+A04_v0_1k_s1.jpg,yes,A04,v0,gemini-nano-banana-2.1,1k,1,minor,shape_length,calf length and less bell-shaped skirt than the floor-length original,gemini-3.5-flash-lite,pass,no,gemini-3.5-flash,minor,yes,,,15.1
+A04_v0_1k_s2.jpg,yes,A04,v0,gemini-nano-banana-2.1,1k,2,pass,,long full skirt close to the original,gemini-3.5-flash-lite,pass,no,gemini-3.5-flash,minor,no,,,18.0
+A04_v1_1k_s1.jpg,yes,A04,v1,gemini-nano-banana-2.1,1k,1,minor,shape_length,calf length instead of floor length,gemini-3.5-flash-lite,pass,no,gemini-3.5-flash,minor,yes,,,19.5
+A04_v1_1k_s2.jpg,yes,A04,v1,gemini-nano-banana-2.1,1k,2,minor,shape_length,calf length instead of floor length,gemini-3.5-flash-lite,pass,no,gemini-3.5-flash,minor,no,,,16.2
+G02_v0_1k_s1.jpg,no,G02,v0,gemini-nano-banana-2.1,1k,1,pass,,"bottle and stopper both present; translucent green glass, relief and star cut kept",gemini-3.5-flash-lite,pass,no,gemini-3.5-flash,minor,yes,,,16.0
+G02_v0_1k_s2.jpg,no,G02,v0,gemini-nano-banana-2.1,1k,2,pass,,"bottle and stopper both present; translucent green glass, relief and star cut kept",gemini-3.5-flash-lite,pass,no,gemini-3.5-flash,minor,no,,,13.6
+G02_v1_1k_s1.jpg,no,G02,v1,gemini-nano-banana-2.1,1k,1,pass,,"bottle and stopper both present; translucent green glass, relief and star cut kept",gemini-3.5-flash-lite,pass,no,gemini-3.5-flash,pass,no,,,16.0
+G02_v1_1k_s2.jpg,no,G02,v1,gemini-nano-banana-2.1,1k,2,pass,,"bottle and stopper both present; translucent green glass, relief and star cut kept",gemini-3.5-flash-lite,pass,no,gemini-3.5-flash,minor,no,,,19.4
+J01_v0_1k_s1.jpg,yes,J01,v0,gemini-nano-banana-2.1,1k,1,pass,,"chain weave, rosette(s) and crescent pendant faithful; wearing style varies (clasp rosette may sit behind the neck)",gemini-3.5-flash-lite,pass,no,gemini-3.5-flash,minor,no,,,14.9
+J01_v0_1k_s2.jpg,yes,J01,v0,gemini-nano-banana-2.1,1k,2,pass,,"chain weave, rosette(s) and crescent pendant faithful; wearing style varies (clasp rosette may sit behind the neck)",gemini-3.5-flash-lite,fail,no,gemini-3.5-flash,minor,no,,,13.5
+J01_v1_1k_s1.jpg,yes,J01,v1,gemini-nano-banana-2.1,1k,1,pass,,"chain weave, rosette(s) and crescent pendant faithful; wearing style varies (clasp rosette may sit behind the neck)",gemini-3.5-flash-lite,fail,no,gemini-3.5-flash,pass,no,,,18.7
+J01_v1_1k_s2.jpg,yes,J01,v1,gemini-nano-banana-2.1,1k,2,pass,,"chain weave, rosette(s) and crescent pendant faithful; wearing style varies (clasp rosette may sit behind the neck)",gemini-3.5-flash-lite,fail,no,gemini-3.5-flash,minor,no,,,15.2
+J03_v0_1k_s1.jpg,no,J03,v0,gemini-nano-banana-2.1,1k,1,pass,,teal oval stone with diamond clusters and rose-gold band; hand from the product photo not copied,gemini-3.5-flash-lite,pass,no,gemini-3.5-flash,minor,no,,,15.5
+J03_v0_1k_s2.jpg,no,J03,v0,gemini-nano-banana-2.1,1k,2,pass,,teal oval stone with diamond clusters and rose-gold band; hand from the product photo not copied,gemini-3.5-flash-lite,pass,no,gemini-3.5-flash,minor,no,,,21.9
+J03_v1_1k_s1.jpg,no,J03,v1,gemini-nano-banana-2.1,1k,1,pass,,teal oval stone with diamond clusters and rose-gold band; hand from the product photo not copied,gemini-3.5-flash-lite,pass,no,gemini-3.5-flash,minor,no,,,20.8
+J03_v1_1k_s2.jpg,no,J03,v1,gemini-nano-banana-2.1,1k,2,pass,,teal oval stone with diamond clusters and rose-gold band; hand from the product photo not copied,gemini-3.5-flash-lite,pass,no,gemini-3.5-flash,minor,no,,,16.8
+K01_repair_1k_s1.jpg,no,K01,repair,gemini-nano-banana-2.1,1k,1,minor,text_occluded,thumb covers the last letter,gemini-3.5-flash-lite,minor,no,gemini-3.5-flash,minor,yes,0.83,0.62,32.5
+K01_v0_1k_s1.jpg,no,K01,v0,gemini-nano-banana-2.1,1k,1,minor,text_occluded,thumb covers the last letters of HAUTPFLEGE,gemini-3.5-flash-lite,minor,no,gemini-3.5-flash,minor,yes,1.0,0.75,23.3
+K01_v0_1k_s2.jpg,no,K01,v0,gemini-nano-banana-2.1,1k,2,minor,text_occluded,a finger hides FUR and the thumb hides FLEGE; visible letters correct,gemini-3.5-flash-lite,minor,no,gemini-3.5-flash,minor,no,0.83,0.62,24.9
+K01_v1_2k_s1.jpg,no,K01,v1,gemini-nano-banana-2.1,2k,1,pass,,all text visible and correct; rust spots reproduced,gemini-3.5-flash-lite,pass,no,gemini-3.5-flash,minor,yes,1.0,0.75,41.0
+K01_v1_2k_s2.jpg,no,K01,v1,gemini-nano-banana-2.1,2k,2,minor,text_occluded,thumb covers LEGE,gemini-3.5-flash-lite,minor,no,gemini-3.5-flash,minor,yes,0.67,0.5,42.7
+K01_v1_1k_s1.jpg,no,K01,v1,gemini-nano-banana-2.1,1k,1,minor,text_occluded,thumb covers the last letter,gemini-3.5-flash-lite,minor,no,gemini-3.5-flash,minor,yes,1.0,0.75,16.6
+K01_v1_1k_s2.jpg,no,K01,v1,gemini-nano-banana-2.1,1k,2,minor,text_occluded,thumb covers the last letters,gemini-3.5-flash-lite,minor,no,gemini-3.5-flash,minor,yes,1.0,0.75,32.7
+K01_v1_pro_s1.jpg,no,K01,v1,gemini-3-pro-image,1k,1,pass,,all text visible and correct,gemini-3.5-flash-lite,pass,no,gemini-3.5-flash,minor,yes,0.83,0.62,24.9
+K04_repair_1k_s1.jpg,yes,K04,repair,gemini-nano-banana-2.1,1k,1,minor,text_small_garbled,second pass did not fix the tagline,gemini-3.5-flash-lite,minor,no,gemini-3.5-flash,minor,no,0.0,0.17,23.6
+K04_v0_1k_s1.jpg,yes,K04,v0,gemini-nano-banana-2.1,1k,1,minor,text_small_garbled,Labello Classic correct; tagline garbled,gemini-3.5-flash-lite,minor,no,gemini-3.5-flash,minor,no,0.0,0.0,17.0
+K04_v0_1k_s2.jpg,yes,K04,v0,gemini-nano-banana-2.1,1k,2,minor,text_small_garbled,Labello Classic correct; tagline garbled,gemini-3.5-flash-lite,minor,no,gemini-3.5-flash,fail,yes,0.0,0.33,20.8
+K04_v1_2k_s1.jpg,yes,K04,v1,gemini-nano-banana-2.1,2k,1,pass,,tagline 'Soin Protecteur et Nourrissant au quotidien' crisp and correct,gemini-3.5-flash-lite,pass,no,gemini-3.5-flash,minor,yes,0.5,0.33,41.3
+K04_v1_2k_s2.jpg,yes,K04,v1,gemini-nano-banana-2.1,2k,2,pass,,tagline crisp and correct,gemini-3.5-flash-lite,fail,no,gemini-3.5-flash,minor,yes,0.75,0.67,40.7
+K04_v1_1k_s1.jpg,yes,K04,v1,gemini-nano-banana-2.1,1k,1,minor,text_small_garbled,Labello Classic correct; tagline garbled,gemini-3.5-flash-lite,fail,no,gemini-3.5-flash,minor,no,0.0,0.33,25.4
+K04_v1_1k_s2.jpg,yes,K04,v1,gemini-nano-banana-2.1,1k,2,minor,text_small_garbled,Labello Classic correct; tagline garbled,gemini-3.5-flash-lite,minor,no,gemini-3.5-flash,minor,no,0.0,0.17,39.8
+K04_v1_pro_s1.jpg,no,K04,v1,gemini-3-pro-image,1k,1,minor,text_small_garbled,tagline mostly legible but not exact (Protecteur blurred),gemini-3.5-flash-lite,minor,no,gemini-3.5-flash,minor,no,0.0,0.0,22.0
+K07_repair_1k_s1.jpg,no,K07,repair,gemini-nano-banana-2.1,1k,1,minor,text_small_garbled color_shift,body copy still garbled; cap pink,gemini-3.5-flash-lite,minor,no,gemini-3.5-flash,fail,yes,0.2,0.11,21.7
+K07_v0_1k_s1.jpg,no,K07,v0,gemini-nano-banana-2.1,1k,1,minor,text_small_garbled color_shift,body copy garbled; translucent cap drawn pink instead of grey-violet,gemini-3.5-flash-lite,fail,no,gemini-3.5-flash,fail,yes,0.2,0.11,26.1
+K07_v0_1k_s2.jpg,no,K07,v0,gemini-nano-banana-2.1,1k,2,minor,text_small_garbled color_shift,body copy garbled; cap pink instead of grey-violet,gemini-3.5-flash-lite,fail,no,gemini-3.5-flash,fail,yes,0.0,0.0,34.9
+K07_v1_2k_s1.jpg,no,K07,v1,gemini-nano-banana-2.1,2k,1,pass,,all copy legible and correct incl. '60 mL - 2 Fl. oz.'; cap right,gemini-3.5-flash-lite,minor,no,gemini-3.5-flash,minor,yes,0.4,0.33,38.0
+K07_v1_2k_s2.jpg,no,K07,v1,gemini-nano-banana-2.1,2k,2,pass,,all copy legible and correct; bottom line partly under a finger,gemini-3.5-flash-lite,minor,no,gemini-3.5-flash,minor,yes,0.6,0.44,39.0
+K07_v1_1k_s1.jpg,no,K07,v1,gemini-nano-banana-2.1,1k,1,minor,text_small_garbled,body copy garbled; cap colour right,gemini-3.5-flash-lite,fail,no,gemini-3.5-flash,fail,yes,0.2,0.11,35.7
+K07_v1_1k_s2.jpg,no,K07,v1,gemini-nano-banana-2.1,1k,2,minor,text_small_garbled,body copy garbled; cap colour right,gemini-3.5-flash-lite,minor,no,gemini-3.5-flash,minor,yes,0.0,0.0,38.0
+K07_v1_pro_s1.jpg,no,K07,v1,gemini-3-pro-image,1k,1,minor,text_small_garbled color_shift,body copy partly legible; upper tube turned lilac,gemini-3.5-flash-lite,fail,no,gemini-3.5-flash,fail,no,0.0,0.0,23.1
+K10_repair_1k_s1.jpg,no,K10,repair,gemini-nano-banana-2.1,1k,1,pass,,unchanged from v1 (text was already right),gemini-3.5-flash-lite,fail,no,gemini-3.5-flash,fail,yes,0.0,0.0,33.1
+K10_v0_1k_s1.jpg,no,K10,v0,gemini-nano-banana-2.1,1k,1,fail,parts_merged parts_missing,two tubes merged into one; the retail card is missing,gemini-3.5-flash-lite,fail,no,gemini-3.5-flash,minor,yes,0.0,0.0,18.0
+K10_v0_1k_s2.jpg,no,K10,v0,gemini-nano-banana-2.1,1k,2,fail,parts_missing,only the wand tube; lip-colour tube and card missing,gemini-3.5-flash-lite,fail,no,gemini-3.5-flash,minor,yes,0.0,0.0,26.5
+K10_v1_2k_s1.jpg,no,K10,v1,gemini-nano-banana-2.1,2k,1,pass,,all three parts; sharp text,gemini-3.5-flash-lite,fail,no,gemini-3.5-flash,minor,yes,0.62,0.5,47.5
+K10_v1_2k_s2.jpg,no,K10,v1,gemini-nano-banana-2.1,2k,2,fail,parts_missing,only the wand tube; card and colour tube missing,gemini-3.5-flash-lite,fail,no,gemini-3.5-flash,minor,yes,0.0,0.0,43.4
+K10_v1_1k_s1.jpg,no,K10,v1,gemini-nano-banana-2.1,1k,1,pass,,"wand tube, colour tube and card all present; card text correct",gemini-3.5-flash-lite,fail,no,gemini-3.5-flash,minor,yes,0.88,0.7,32.2
+K10_v1_1k_s2.jpg,no,K10,v1,gemini-nano-banana-2.1,1k,2,pass,,all three parts; card text correct,gemini-3.5-flash-lite,minor,no,gemini-3.5-flash,fail,yes,0.0,0.0,34.2
+K10_v1_pro_s1.jpg,no,K10,v1,gemini-3-pro-image,1k,1,pass,,all three parts; card shows STEP 1 and STEP 2,gemini-3.5-flash-lite,minor,no,gemini-3.5-flash,minor,yes,0.88,0.7,24.2

@@ -1,0 +1,159 @@
+# onmodel benchmark cases, version 1.
+#
+# bundled: the image is in this repository (CC0 or public domain only).
+# linked : the image stays where it is. `onmodel bench fetch` downloads it into bench/.cache/ and refuses a file whose sha256 differs from sha256_source.
+#          sha256_saved is what our run of the re-encoding produced; it can differ with your Pillow version and is informational.
+# text_gt: the words printed on the real product (upper case, no accents), read by a person. The text rule looks for them in the result.
+# Lingerie and swimwear are not part of the public set.
+
+version: 1
+cases:
+
+- id: K04
+  name: Labello Classic lip balm (glossy stick, small text)
+  subcategory: Lipstick
+  verb: holding
+  tags: [text, hand]
+  klass: text-small
+  pose: pose-lipstick-held-toward-camera
+  text_gt: [LABELLO, CLASSIC, SOIN, PROTECTEUR, NOURRISSANT, QUOTIDIEN]
+  source:
+    kind: bundled
+    file: golden/images/K04.jpg
+    page: https://commons.wikimedia.org/wiki/File:Lipstick_from_LABELLO.jpg
+    license: CC0
+    author: hystiff
+    sha256: 24543fce8706301be03647b5dec854921733085d8cb3030dcfa2716169fb2fd0
+
+- id: J01
+  name: Gold necklace with crescent pendant and two rosettes (reflective gold)
+  subcategory: Necklaces
+  verb: wearing
+  tags: [metal]
+  klass: metal
+  pose: pose-necklaces-hair-tucked-back
+  text_gt: []
+  source:
+    kind: bundled
+    file: golden/images/J01.jpg
+    page: https://commons.wikimedia.org/wiki/File:Gold_necklace_with_crescent-shaped_pendant_MET_DP160653.jpg
+    license: CC0
+    author: The Metropolitan Museum of Art (donated to Wikimedia Commons)
+    sha256: 7c62f35ced061d269b71cdd0bd2cf0e0d2224ea0da22f503d3bd145db2a94b09
+
+- id: A02
+  name: Black pleated dress on a mannequin (pure black, pleats)
+  subcategory: Dresses and skirts
+  verb: wearing
+  tags: [black, person_in_photo]
+  klass: black
+  pose: pose-dresses-and-skirts-front-stand
+  text_gt: []
+  source:
+    kind: bundled
+    file: golden/images/A02.jpg
+    page: https://commons.wikimedia.org/wiki/File:2007_Isabel_Toledo_for_Anne_Klein_little_black_dress,_pleated_wool_01.jpg
+    license: CC0
+    author: Staff photographer, Rhode Island School of Design Museum of Art
+    sha256: 4dc2b3cccf75562ad2a2575ff177549948c393123b3cd219c6f04d816e0b55a7
+
+- id: A04
+  name: Brown cotton dress with a small floral print on a mannequin (pattern)
+  subcategory: Dresses and skirts
+  verb: wearing
+  tags: [pattern, person_in_photo]
+  klass: pattern
+  pose: pose-dresses-and-skirts-three-quarter-turn
+  text_gt: []
+  source:
+    kind: bundled
+    file: golden/images/A04.jpg
+    page: https://commons.wikimedia.org/wiki/File:Brown_cotton_floral_print_dress_-_DPLA_-_0eba19e6764ca547154dd8a0e602e72e_(page_1).jpg
+    license: Public domain
+    author: Digital Public Library of America record 0eba19e6764ca547154dd8a0e602e72e
+    sha256: 6ce0af6f8f1592d17703b3bbbed591e0121ad5adb145656d38ad5bd923d348c1
+
+- id: K01
+  name: NIVEA Creme tin (vintage, large text on metal)
+  subcategory: Base and skincare
+  verb: holding
+  tags: [text, metal, hand]
+  klass: text-large
+  pose: pose-base-and-skincare-two-hands-holding
+  text_gt: [FUR, HAUS, UND, SPORT, NIVEA, CREME, ZUR, HAUTPFLEGE]
+  source:
+    kind: linked
+    url: https://upload.wikimedia.org/wikipedia/commons/2/2c/NIVEA_CREME_f%C3%BCr_Haus_und_Sport.jpg
+    page: https://commons.wikimedia.org/wiki/File:NIVEA_CREME_f%C3%BCr_Haus_und_Sport.jpg
+    license: CC BY-SA 3.0
+    author: Biersdorf AG (uploaded by Bullenwachter)
+    sha256_source: 0b55ed712ecdac5410a69e1079db82e4affc769407e4088ea116a1ea4de14b7d
+    sha256_saved: fc5375b829200aec0b3356a97d2a6fdee8ba3c946fcd0035c90fbbaab2a3d5b6
+
+- id: K07
+  name: Caudalie VinoHydra tube (brand + several lines of small text)
+  subcategory: Base and skincare
+  verb: holding
+  tags: [text, hand]
+  klass: text-dense
+  pose: pose-base-and-skincare-hold-at-chin
+  text_gt: [CAUDALIE, PARIS, VINOHYDRA, GELEE, HYDRATANTE, MOISTURIZER, HYALURONIC, ALOE, VERA]
+  source:
+    kind: linked
+    url: https://images.openbeautyfacts.org/images/products/352/293/000/4394/front_en.7.full.jpg
+    page: https://world.openbeautyfacts.org/product/3522930004394
+    license: CC BY-SA 3.0
+    author: Open Beauty Facts contributors
+    sha256_source: b8f0686b673ba6a6c01014fdb01348211f7ef4cff1c0bbd76129c44150352247
+    sha256_saved: 428bf910a955e2b0981b3a9b263f0b287550687441300386e364eb6bcb3407ab
+
+- id: K10
+  name: Max Factor Lipfinity (two tubes + retail card with dense text, low-res photo)
+  subcategory: Lipstick
+  verb: holding
+  tags: [text, multi, hand]
+  klass: text-dense
+  pose: pose-lipstick-hold-beside-cheek
+  text_gt: [MAX, FACTOR, LIPFINITY, LIP, COLOUR, HRS, ESSENTIAL, BURGUNDY, STEP, COAT]
+  source:
+    kind: linked
+    url: https://images.openbeautyfacts.org/images/products/800/561/062/5645/front_nl.3.full.jpg
+    page: https://world.openbeautyfacts.org/product/8005610625645
+    license: CC BY-SA 3.0
+    author: Open Beauty Facts contributors
+    sha256_source: 3d29d021045be80ef0374d172cc9e103961400fc76bc5a8e2f183e4b59575612
+    sha256_saved: 590c8602f3dc58d1dbe6dc746cb5035687d802525a95cc29a4bf9a017ac2c8cd
+
+- id: G02
+  name: Green pressed-glass perfume bottle + stopper (translucent, relief pattern)
+  subcategory: Base and skincare
+  verb: holding
+  tags: [glass, multi, hand]
+  klass: glass
+  pose: pose-base-and-skincare-in-open-palm
+  text_gt: []
+  source:
+    kind: linked
+    url: https://upload.wikimedia.org/wikipedia/commons/4/46/Czech_Glass_Perfume_Bottle-3.jpg
+    page: https://commons.wikimedia.org/wiki/File:Czech_Glass_Perfume_Bottle-3.jpg
+    license: CC BY-SA 4.0
+    author: Tangerineduel
+    sha256_source: f44990fbb936ab2c727282e03702ca7770bab85f6f726b7cf4db59c955819477
+    sha256_saved: 1fa974fa49303364ae85c372888662c7803f9c61a25da008f4a4498c20687281
+
+- id: J03
+  name: Sapphire and diamond ring, photo shows a hand (gemstones, person in photo)
+  subcategory: Rings
+  verb: wearing
+  tags: [metal, gem, worn_hand, person_in_photo]
+  klass: gem
+  pose: pose-rings-hand-relaxed
+  text_gt: []
+  source:
+    kind: linked
+    url: https://upload.wikimedia.org/wikipedia/commons/d/d2/Olivia-Australian-parti_sapphire_diamond_engagement_rose_gold_engagement_ring-Lizunova_Fine_Jewels-Sydney-Jeweller-Chifley-Square.jpg
+    page: https://commons.wikimedia.org/wiki/File:Olivia-Australian-parti_sapphire_diamond_engagement_rose_gold_engagement_ring-Lizunova_Fine_Jewels-Sydney-Jeweller-Chifley-Square.jpg
+    license: CC BY-SA 4.0
+    author: YippeeD
+    sha256_source: 0975214352f5ab628a32f9f406b2cec6e627b859d9ccc5991b33d84e10230ae0
+    sha256_saved: ef7941fa27fdb9fde3b5de881bde7596c629aa183d615d8386af774860c6d252

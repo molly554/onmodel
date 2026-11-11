@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.venv/
+venv/
+
+# Secrets and local settings. onmodel reads keys from the environment and never writes them anywhere.
+.env
+.env.*
+*.key
+*.pem
+
+# Benchmark: images you fetched yourself and the runs you made. Only the published run below is tracked.
+bench/.cache/
+bench/runs/*
+!bench/runs/mini-test-v0.1/
+
+# Editors and OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,16 @@
+onmodel
+Copyright 2026 molly554 and the onmodel contributors
+
+This product is licensed under the Apache License, Version 2.0 (see LICENSE).
+
+Parts of the repository are not covered by that license:
+
+* Figures and annotations are licensed under CC BY 4.0.
+* The photos in bench/ are licensed as recorded in bench/ASSETS.json and ATTRIBUTION.md:
+  CC0 or public domain for the bundled product photos, the pose photos and the generated photos of the mini test.
+  The five CC BY-SA product photos used by the benchmark are linked, not copied.
+* The Contributor Covenant text in CODE_OF_CONDUCT.md is adapted from the Contributor Covenant, version 2.1,
+  licensed under CC BY 4.0.
+
+Product names and logos that appear in the photos belong to their owners. They are shown only to identify the
+products that were checked. No endorsement is implied.

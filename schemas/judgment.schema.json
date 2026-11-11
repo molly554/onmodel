@@ -1,0 +1,644 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/molly554/onmodel/schemas/judgment.schema.json",
+  "title": "onmodel judgment record",
+  "description": "The result of reviewing one result photo against its product photo (`onmodel check --json`, and one line of judgments.jsonl).",
+  "type": "object",
+  "properties": {
+    "schema": {
+      "const": "onmodel/judgment@1"
+    },
+    "onmodel_version": {
+      "type": "string"
+    },
+    "rubric_version": {
+      "type": "string"
+    },
+    "product": {
+      "type": "object",
+      "properties": {
+        "file": {
+          "type": "string"
+        },
+        "sha256": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
+        }
+      },
+      "required": [
+        "file",
+        "sha256"
+      ],
+      "additionalProperties": false
+    },
+    "result": {
+      "type": "object",
+      "properties": {
+        "file": {
+          "type": "string"
+        },
+        "sha256": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
+        }
+      },
+      "required": [
+        "file",
+        "sha256"
+      ],
+      "additionalProperties": false
+    },
+    "pose": {
+      "oneOf": [
+        {
+          "type": "object",
+          "properties": {
+            "file": {
+              "type": "string"
+            },
+            "sha256": {
+              "type": "string",
+              "pattern": "^[0-9a-f]{64}$"
+            }
+          },
+          "required": [
+            "file",
+            "sha256"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "verb": {
+      "enum": [
+        "wearing",
+        "holding"
+      ]
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "enum": [
+          "text",
+          "glass",
+          "metal",
+          "gem",
+          "lace",
+          "black",
+          "pattern",
+          "multi",
+          "hand",
+          "worn_hand",
+          "person_in_photo"
+        ]
+      }
+    },
+    "judge": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "prompt_sha": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "crop": {
+          "type": "boolean"
+        },
+        "box_2d": {
+          "oneOf": [
+            {
+              "type": "array",
+              "items": {
+                "type": "integer"
+              },
+              "minItems": 4,
+              "maxItems": 4
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "name",
+        "prompt_sha",
+        "crop",
+        "box_2d"
+      ],
+      "additionalProperties": false
+    },
+    "ok": {
+      "type": "boolean"
+    },
+    "error": {
+      "type": "string"
+    },
+    "checklist": {
+      "oneOf": [
+        {
+          "type": "object",
+          "properties": {
+            "items": {
+              "type": "object",
+              "properties": {
+                "shape": {
+                  "type": "object",
+                  "properties": {
+                    "answer": {
+                      "enum": [
+                        "same",
+                        "minor",
+                        "different",
+                        "cannot_tell",
+                        "not_applicable"
+                      ]
+                    },
+                    "evidence": {
+                      "type": "string"
+                    },
+                    "where": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "answer"
+                  ],
+                  "additionalProperties": true
+                },
+                "color": {
+                  "type": "object",
+                  "properties": {
+                    "answer": {
+                      "enum": [
+                        "same",
+                        "minor",
+                        "different",
+                        "cannot_tell",
+                        "not_applicable"
+                      ]
+                    },
+                    "evidence": {
+                      "type": "string"
+                    },
+                    "where": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "answer"
+                  ],
+                  "additionalProperties": true
+                },
+                "material": {
+                  "type": "object",
+                  "properties": {
+                    "answer": {
+                      "enum": [
+                        "same",
+                        "minor",
+                        "different",
+                        "cannot_tell",
+                        "not_applicable"
+                      ]
+                    },
+                    "evidence": {
+                      "type": "string"
+                    },
+                    "where": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "answer"
+                  ],
+                  "additionalProperties": true
+                },
+                "text": {
+                  "type": "object",
+                  "properties": {
+                    "answer": {
+                      "enum": [
+                        "same",
+                        "minor",
+                        "different",
+                        "cannot_tell",
+                        "not_applicable"
+                      ]
+                    },
+                    "evidence": {
+                      "type": "string"
+                    },
+                    "where": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "answer"
+                  ],
+                  "additionalProperties": true
+                },
+                "parts": {
+                  "type": "object",
+                  "properties": {
+                    "answer": {
+                      "enum": [
+                        "same",
+                        "minor",
+                        "different",
+                        "cannot_tell",
+                        "not_applicable"
+                      ]
+                    },
+                    "evidence": {
+                      "type": "string"
+                    },
+                    "where": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "answer"
+                  ],
+                  "additionalProperties": true
+                },
+                "pose": {
+                  "type": "object",
+                  "properties": {
+                    "answer": {
+                      "enum": [
+                        "same",
+                        "minor",
+                        "different",
+                        "cannot_tell",
+                        "not_applicable"
+                      ]
+                    },
+                    "evidence": {
+                      "type": "string"
+                    },
+                    "where": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "answer"
+                  ],
+                  "additionalProperties": true
+                },
+                "identity": {
+                  "type": "object",
+                  "properties": {
+                    "answer": {
+                      "enum": [
+                        "same",
+                        "minor",
+                        "different",
+                        "cannot_tell",
+                        "not_applicable"
+                      ]
+                    },
+                    "evidence": {
+                      "type": "string"
+                    },
+                    "where": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "answer"
+                  ],
+                  "additionalProperties": true
+                },
+                "artifacts": {
+                  "type": "object",
+                  "properties": {
+                    "answer": {
+                      "enum": [
+                        "same",
+                        "minor",
+                        "different",
+                        "cannot_tell",
+                        "not_applicable"
+                      ]
+                    },
+                    "evidence": {
+                      "type": "string"
+                    },
+                    "where": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "answer"
+                  ],
+                  "additionalProperties": true
+                },
+                "scale": {
+                  "type": "object",
+                  "properties": {
+                    "answer": {
+                      "enum": [
+                        "same",
+                        "minor",
+                        "different",
+                        "cannot_tell",
+                        "not_applicable"
+                      ]
+                    },
+                    "evidence": {
+                      "type": "string"
+                    },
+                    "where": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "answer"
+                  ],
+                  "additionalProperties": true
+                }
+              },
+              "required": [
+                "shape",
+                "color",
+                "material",
+                "text",
+                "parts",
+                "pose",
+                "identity",
+                "artifacts",
+                "scale"
+              ],
+              "additionalProperties": false
+            },
+            "defects": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "code": {
+                    "enum": [
+                      "WRONG_PRODUCT",
+                      "SHAPE_OFF",
+                      "LENGTH_DRIFT",
+                      "COLOR_OFF",
+                      "COLOR_FAMILY",
+                      "MATERIAL_OFF",
+                      "TEXT_GARBLE",
+                      "TEXT_WRONG",
+                      "LABEL_OCCLUDED",
+                      "PART_MISSING",
+                      "PART_MERGED",
+                      "PART_EXTRA",
+                      "POSE",
+                      "IDENTITY",
+                      "LEAK_HAND_MANNEQUIN",
+                      "ARTIFACT",
+                      "SEVERE_DEFORMITY",
+                      "SCALE_OFF"
+                    ]
+                  },
+                  "where": {
+                    "type": "string"
+                  },
+                  "evidence": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "code"
+                ],
+                "additionalProperties": true
+              }
+            },
+            "text_in_reference": {
+              "type": "string",
+              "description": "Text legible on the real product, line by line."
+            },
+            "text_in_generated": {
+              "type": "string",
+              "description": "Text legible on the product in the result, exactly as it appears."
+            }
+          },
+          "required": [
+            "items"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "text_rule": {
+      "oneOf": [
+        {
+          "type": "object",
+          "properties": {
+            "source": {
+              "enum": [
+                "ocr",
+                "transcription"
+              ]
+            },
+            "expected": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "found": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "missing": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "recall": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "threshold": {
+              "type": "number"
+            },
+            "flagged": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "source",
+            "expected",
+            "found",
+            "missing",
+            "recall",
+            "threshold",
+            "flagged"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "rule_tightened": {
+      "type": "boolean"
+    },
+    "scorecard": {
+      "oneOf": [
+        {
+          "type": "object",
+          "properties": {
+            "dims": {
+              "type": "object",
+              "properties": {
+                "fidelity": {
+                  "enum": [
+                    0,
+                    1,
+                    2
+                  ]
+                },
+                "pose": {
+                  "enum": [
+                    0,
+                    1,
+                    2
+                  ]
+                },
+                "identity": {
+                  "enum": [
+                    0,
+                    1,
+                    2
+                  ]
+                },
+                "artifacts": {
+                  "enum": [
+                    0,
+                    1,
+                    2
+                  ]
+                },
+                "scale": {
+                  "enum": [
+                    0,
+                    1,
+                    2
+                  ]
+                }
+              },
+              "required": [
+                "fidelity",
+                "pose",
+                "identity",
+                "artifacts",
+                "scale"
+              ],
+              "additionalProperties": false
+            },
+            "total": {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 10
+            },
+            "veto": {
+              "type": "array",
+              "items": {
+                "enum": [
+                  "WRONG_PRODUCT",
+                  "COLOR_FAMILY",
+                  "TEXT_WRONG",
+                  "PART_MISSING",
+                  "PART_MERGED",
+                  "PART_EXTRA",
+                  "LEAK_HAND_MANNEQUIN",
+                  "SEVERE_DEFORMITY"
+                ]
+              }
+            },
+            "unverifiable": {
+              "type": "array",
+              "items": {
+                "enum": [
+                  "shape",
+                  "color",
+                  "material",
+                  "text",
+                  "parts",
+                  "pose",
+                  "identity",
+                  "artifacts",
+                  "scale"
+                ]
+              }
+            },
+            "verified": {
+              "type": "boolean"
+            },
+            "reasons": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "max_total": {
+              "const": 10
+            }
+          },
+          "required": [
+            "dims",
+            "total",
+            "veto",
+            "unverifiable",
+            "verified",
+            "reasons",
+            "max_total"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "advice": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "usage": {
+      "type": "object"
+    },
+    "seconds": {
+      "type": "number"
+    }
+  },
+  "required": [
+    "schema",
+    "onmodel_version",
+    "rubric_version",
+    "product",
+    "result",
+    "judge",
+    "ok",
+    "error",
+    "scorecard"
+  ],
+  "additionalProperties": true
+}

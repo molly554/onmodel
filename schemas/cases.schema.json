@@ -1,0 +1,165 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/molly554/onmodel/schemas/cases.schema.json",
+  "title": "onmodel benchmark cases",
+  "type": "object",
+  "properties": {
+    "version": {
+      "type": "integer"
+    },
+    "cases": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[A-Za-z0-9]+$"
+          },
+          "name": {
+            "type": "string"
+          },
+          "subcategory": {
+            "enum": [
+              "Tops",
+              "Outerwear",
+              "Dresses and skirts",
+              "Pants",
+              "Necklaces",
+              "Earrings",
+              "Rings",
+              "Bracelets",
+              "Lipstick",
+              "Base and skincare",
+              "Eyeshadow palettes"
+            ]
+          },
+          "verb": {
+            "enum": [
+              "wearing",
+              "holding"
+            ]
+          },
+          "tags": {
+            "type": "array",
+            "items": {
+              "enum": [
+                "text",
+                "glass",
+                "metal",
+                "gem",
+                "lace",
+                "black",
+                "pattern",
+                "multi",
+                "hand",
+                "worn_hand",
+                "person_in_photo"
+              ]
+            }
+          },
+          "klass": {
+            "type": "string"
+          },
+          "pose": {
+            "type": "string"
+          },
+          "text_gt": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "source": {
+            "oneOf": [
+              {
+                "type": "object",
+                "properties": {
+                  "kind": {
+                    "const": "bundled"
+                  },
+                  "file": {
+                    "type": "string"
+                  },
+                  "page": {
+                    "type": "string"
+                  },
+                  "license": {
+                    "enum": [
+                      "CC0",
+                      "Public domain"
+                    ]
+                  },
+                  "author": {
+                    "type": "string"
+                  },
+                  "sha256": {
+                    "type": "string",
+                    "pattern": "^[0-9a-f]{64}$"
+                  }
+                },
+                "required": [
+                  "kind",
+                  "file",
+                  "license",
+                  "sha256",
+                  "page"
+                ],
+                "additionalProperties": true
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "kind": {
+                    "const": "linked"
+                  },
+                  "url": {
+                    "type": "string",
+                    "pattern": "^https://"
+                  },
+                  "page": {
+                    "type": "string"
+                  },
+                  "license": {
+                    "type": "string"
+                  },
+                  "author": {
+                    "type": "string"
+                  },
+                  "sha256_source": {
+                    "type": "string",
+                    "pattern": "^[0-9a-f]{64}$"
+                  }
+                },
+                "required": [
+                  "kind",
+                  "url",
+                  "license",
+                  "sha256_source",
+                  "page"
+                ],
+                "additionalProperties": true
+              }
+            ]
+          }
+        },
+        "required": [
+          "id",
+          "name",
+          "subcategory",
+          "verb",
+          "tags",
+          "pose",
+          "source"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 1
+    }
+  },
+  "required": [
+    "version",
+    "cases"
+  ],
+  "additionalProperties": false
+}

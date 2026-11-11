@@ -1,0 +1,82 @@
+# Starter recipes v0.1: the prompts of our mini test, as data.
+#
+# A recipe is a general head plus rules that are added when the product carries a risk tag. Tags come from you (or from `onmodel analyze`).
+# These are starter recipes: they are the baseline we tested, not tuned ones. Task shape: "swap the product".
+#   Image 1 = the product photo, Image 2 = a pose reference photo (a person posing with some other product or outfit).
+version: "0.1.0"
+task: swap-product
+
+header: >-
+  Photorealistic e-commerce catalog photo edit.
+  Image 1 is the PRODUCT photo. It may also show a hand, a mannequin, a background or props: ignore all of that and use only the product itself.
+  Image 2 is the POSE REFERENCE photo: it shows a person posing with a different product or outfit.
+  Recreate Image 2 (the same person, pose, framing, camera angle, background, lighting and mood),
+  but make the person {verb} the exact product from Image 1 instead of the product or outfit in Image 2.
+
+# v0: the generic instruction. v1: the same task plus the rules of the product's tags.
+v0_tail: " Keep the product's shape, color, material and every detail unchanged. No watermark."
+v1_lead: " Keep the product's shape, color, material and every detail unchanged. Follow these rules:"
+
+# Added in this order, only for the tags the product has.
+rules:
+  text: >-
+    TEXT AND LOGOS (highest priority): every word, letter, number and logo printed on the product must be reproduced exactly as in Image 1:
+    same characters, same font style, same colors, same position and same relative size. Do not invent, translate, rearrange, blur or add any text.
+    If some text is too small to read in Image 1, render it as the same tiny unreadable marks instead of inventing words.
+    The side of the product that carries the text must face the camera, fully visible, in focus and not covered by fingers.
+  glass: >-
+    GLASS: keep the glass transparent or translucent with the same color, thickness, relief pattern and highlights as in Image 1;
+    keep any stopper, cap or liquid exactly as in Image 1.
+  metal: >-
+    METAL: keep the same metal color and finish (polished or matte) with realistic reflections;
+    do not change the shape of chains, links, pendants, settings or ornaments.
+  gem: "GEMSTONES: keep the same stone color, cut and number of stones, and the same setting."
+  lace: >-
+    LACE: keep the exact lace or embroidery pattern, its scale and its see-through areas;
+    do not simplify the lace into a plain fabric or change the pattern.
+  black: "BLACK: keep the garment as deep black without lifting it to gray; keep the visible pleats, seams and fabric texture."
+  pattern: "PRINT: keep the printed pattern, its colors and its scale exactly as in Image 1; do not replace it with a different pattern."
+  multi: >-
+    PARTS: show every part of the product that Image 1 shows (for example a bottle and its stopper, or two tubes and their card)
+    and no extra parts.
+  hand: >-
+    HANDS: fingers wrap naturally around the product and never pass through it; each hand has exactly five fingers;
+    keep natural contact shadows.
+  worn_hand: "RING: the ring sits on a finger in the correct place and at its real size; the finger and hand look natural."
+  person_in_photo: "DO NOT COPY: do not copy any hand, mannequin, display stand, background or prop from Image 1 into the result."
+
+# Always added last.
+always: >-
+  SIZE: keep the product's real-world size relative to the person's body; do not enlarge or shrink it.
+  No other text, logo, watermark or caption anywhere in the image.
+
+# A second pass for products that carry text: edit the first result so that the printed text matches the real product.
+repair: >-
+  Image 1 is the real product photo. Image 2 is a generated photo of a person with that product.
+  Edit Image 2 so that the printed text and logos on the product are identical to Image 1: same characters, font style, color, position and relative size.
+  Change nothing else: keep the person, pose, framing, background, lighting, and the product's shape and material exactly as they are in Image 2.
+  Do not add any other text.
+
+verbs:
+  holding: hold
+  wearing: wear
+
+# Starting points per public sub-category. The tags are hints; set the real ones per product.
+subcategories:
+  Tops:               {verb: wearing, tags: []}
+  Outerwear:          {verb: wearing, tags: []}
+  Dresses and skirts: {verb: wearing, tags: []}
+  Pants:              {verb: wearing, tags: []}
+  Necklaces:          {verb: wearing, tags: [metal]}
+  Earrings:           {verb: wearing, tags: [metal]}
+  Rings:              {verb: wearing, tags: [metal, worn_hand]}
+  Bracelets:          {verb: wearing, tags: [metal]}
+  Lipstick:           {verb: holding, tags: [hand]}
+  Base and skincare:  {verb: holding, tags: [hand, text]}
+  Eyeshadow palettes: {verb: holding, tags: [hand, text, multi]}
+
+# What we learned that is not a prompt rule (see docs/mini-test.md):
+#  * products with small print: render at 2K or higher (1K gave gibberish in 8 of 8 photos, 2K in 0 of 4)
+#  * fingers over a label and a hem that follows the pose reference are fixed by choosing the pose, not by rewording
+guidance:
+  small_print_resolution: 2k
