@@ -1,7 +1,7 @@
 # onmodel
 
 **Does your AI model photo still look like your product?**
-Check an AI-generated on-model product photo against the real product: shape, color, material, printed text, parts and scale. One command, or one skill for your coding agent.
+Evaluate AI product photography against the real product: shape, color, material, printed text, parts and scale. Made for ecommerce teams and for anyone building AI model photo, product image generation or virtual try-on tools. One command, or one agent skill for Claude Code, backed by an open LLM-as-a-judge benchmark.
 
 [![License: Apache-2.0](https://img.shields.io/badge/license-Apache--2.0-blue.svg)](LICENSE)
 [![CI](https://github.com/molly554/onmodel/actions/workflows/ci.yml/badge.svg)](https://github.com/molly554/onmodel/actions/workflows/ci.yml)

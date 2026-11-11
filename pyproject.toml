@@ -11,7 +11,7 @@ requires-python = ">=3.10"
 license = "Apache-2.0"
 license-files = ["LICENSE", "NOTICE"]
 authors = [{ name = "molly554" }]
-keywords = ["ai-product-photography", "ecommerce", "image-evaluation", "benchmark", "llm-as-a-judge", "virtual-try-on", "agent-skills"]
+keywords = ["ai-product-photography", "product-photography", "ecommerce", "image-evaluation", "llm-as-a-judge", "benchmark", "virtual-try-on", "agent-skills", "claude-code", "nano-banana", "gemini"]
 classifiers = [
   "Development Status :: 3 - Alpha",
   "Intended Audience :: Developers",

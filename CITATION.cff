@@ -15,7 +15,13 @@ abstract: >-
   Version 0.1.0 includes a preliminary pilot test; its numbers are directions, not pass rates.
 keywords:
   - ai-product-photography
-  - image-evaluation
-  - benchmark
-  - llm-as-a-judge
+  - product-photography
   - ecommerce
+  - image-evaluation
+  - llm-as-a-judge
+  - benchmark
+  - virtual-try-on
+  - agent-skills
+  - claude-code
+  - nano-banana
+  - gemini

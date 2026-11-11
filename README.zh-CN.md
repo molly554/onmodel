@@ -1,7 +1,7 @@
 # onmodel
 
 **AI 生成的上身图，还像你的商品吗？**
-对照真实商品，检查 AI 生成的上身商品图：形状、颜色、材质、印刷文字、件数和比例。一条命令，或者给你的编程助手装一个 skill。
+对照真实商品，评估 AI 商品摄影图：形状、颜色、材质、印刷文字、件数和比例。面向电商团队，以及做 AI 模特图、商品图生成或虚拟试穿工具的开发者。一条命令，或者给 Claude Code 装一个 agent skill，背后是一套开放的 LLM-as-a-judge 基准。
 
 [![License: Apache-2.0](https://img.shields.io/badge/license-Apache--2.0-blue.svg)](LICENSE)
 [![CI](https://github.com/molly554/onmodel/actions/workflows/ci.yml/badge.svg)](https://github.com/molly554/onmodel/actions/workflows/ci.yml)
