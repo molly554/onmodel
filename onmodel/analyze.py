@@ -22,8 +22,8 @@ TAG_HELP = {
 ANALYSIS_SCHEMA = {
     "type": "OBJECT",
     "properties": {
-        "subcategory": {"type": "STRING", "enum": list(SUBCATEGORIES) + ["Other"]},
-        "tags": {"type": "ARRAY", "items": {"type": "STRING", "enum": list(RISK_TAGS)}},
+        "subcategory": {"type": "STRING", "format": "enum", "enum": list(SUBCATEGORIES) + ["Other"]},
+        "tags": {"type": "ARRAY", "items": {"type": "STRING", "format": "enum", "enum": list(RISK_TAGS)}},
         "parts": {"type": "ARRAY", "items": {"type": "STRING"}},
         "text_lines": {"type": "ARRAY", "items": {"type": "STRING"}},
         "notes": {"type": "STRING"},

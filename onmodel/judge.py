@@ -72,13 +72,13 @@ def build_prompt(*, verb: str = "wearing", tags=(), has_crop: bool = True, has_p
     return "\n".join(lines)
 
 
-# ----------------------------------------------------------------------------------------------------------- schema (Gemini's OpenAPI subset)
-_ITEM = {"type": "OBJECT", "properties": {"answer": {"type": "STRING", "enum": list(ANSWERS)}, "evidence": {"type": "STRING"}, "where": {"type": "STRING"}}, "required": ["answer"]}
+# ----------------------------------------------------------------------------------------------------------- schema (Gemini's OpenAPI subset; an enum is {type: STRING, format: enum, enum: [...]})
+_ITEM = {"type": "OBJECT", "properties": {"answer": {"type": "STRING", "format": "enum", "enum": list(ANSWERS)}, "evidence": {"type": "STRING"}, "where": {"type": "STRING"}}, "required": ["answer"]}
 CHECKLIST_SCHEMA = {
     "type": "OBJECT",
     "properties": {
         "items": {"type": "OBJECT", "properties": {k: _ITEM for k in ITEMS}, "required": list(ITEMS)},
-        "defects": {"type": "ARRAY", "items": {"type": "OBJECT", "properties": {"code": {"type": "STRING", "enum": list(DEFECTS)}, "where": {"type": "STRING"}, "evidence": {"type": "STRING"}}, "required": ["code"]}},
+        "defects": {"type": "ARRAY", "items": {"type": "OBJECT", "properties": {"code": {"type": "STRING", "format": "enum", "enum": list(DEFECTS)}, "where": {"type": "STRING"}, "evidence": {"type": "STRING"}}, "required": ["code"]}},
         "text_in_reference": {"type": "STRING"},
         "text_in_generated": {"type": "STRING"},
     },

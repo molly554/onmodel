@@ -62,6 +62,9 @@ def test_schema_enums_come_from_the_taxonomy():
     assert list(items) == list(ITEMS)
     assert items["text"]["properties"]["answer"]["enum"] == list(ANSWERS)
     assert CHECKLIST_SCHEMA["properties"]["defects"]["items"]["properties"]["code"]["enum"] == list(DEFECTS)
+    # Gemini documents an enum as {type: STRING, format: enum, enum: [...]}
+    assert items["text"]["properties"]["answer"]["format"] == "enum"
+    assert CHECKLIST_SCHEMA["properties"]["defects"]["items"]["properties"]["code"]["format"] == "enum"
 
 
 def test_mock_vlm_default_cycle_callable_and_box():
